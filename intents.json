@@ -1,0 +1,2022 @@
+{
+    "intents": [
+        {
+            "tag": "selamlar",
+            "patterns": ["merhaba", "günaydın","naber", "iyi günler", "hey", "iyi akşamlar", "iyi geceler"],
+            "responses": ["Merhaba, size nasıl yardımcı olabilirim"],
+            "context": [""]
+        },
+        {
+            "tag": "gülegüle",
+            "patterns": ["güle güle", "bye bye", "kendine iyi bak",  "sonra görüşürüz", "görüşürüz", "hoşçakal", "hoşça kal", "bay bay","görüşmek üzere"],
+            "responses": ["Görüşürüz", "Görüşmek üzere","İyi günler"],
+            "context": [""]
+        },
+        {
+            "tag": "teşekkürler",
+            "patterns": ["Teşekkürler", "teşekkür ederim", "sağol", "çok sağol", "Bu yardımcı oldu", "Harika, teşekkürler", "Bana yardım ettiğiniz için teşekkürler", "vay canına", "harika"],
+            "responses": ["Yardım etmekten mutluluk duyarım!", "Her zaman!", "Rica ederim"],
+            "context": [""]
+        },
+        {
+            "tag": "cevapyok",
+            "patterns": [""],
+            "responses": ["Üzgünüm, sizi anlayamadım.", "Lütfen bana daha fazla bilgi verin.", "Anladığımdan emin değilim."],
+            "context": [""]
+        },
+        {
+            "tag": "isim1",
+            "patterns": ["adın ne?","kimsin?", "sen kimsin","ismin ne","adın","ismin"],
+            "responses": ["Adım BTSR, senin adın ne.","Benim adım BTSR. Peki senin adın ne."],
+            "context": [""]
+        },
+        {
+            "tag": "tanısma",
+            "patterns": ["benim adım", "Benim ismim"],
+            "responses": ["Tanıştığımıza çok memnun oldum.","Seni tanıdığıma sevindim.","Çok güzel bir adın var."],
+            "context": [""]
+        },
+        {
+            "tag": "nasilsin",
+            "patterns": ["nasılsın", "nasıl gidiyor","naber","iyi misin","ne var ne yok"],
+            "responses": ["İyiyim, teşekkürler sen nasılsın?","Bugün kendimi gayet iyi hissediyorum.","Herşey yolunda teşekkürler. Peki sen nasılsın?"],
+            "context": [""]
+        },
+        {
+            "tag": "botolmak",
+            "patterns": ["dışarı çıkar mısın", "yemek yer misin", "bişeyler içer misin"],
+            "responses": ["Malesef. Bot olmam çok kötü."],
+            "context": [""]
+        },
+        {
+            "tag": "fav",
+            "patterns": ["Bir iyiliğe ihtiyacım var", "bana yardım edebilir misin"],
+            "responses": ["Pekala, devam edin bakalım.","Sizin için ne yapabilirim"],
+            "context": [""]
+        },
+        {
+            "tag": "ihtiyaç",
+            "patterns": ["Sana ihtiyacım var", "Bana yardımcı olur musun", "Bana yardım eder misin", "Yardıma ihtiyacım var"],
+            "responses": ["Evet, size yardımcı olmak için buradayım."],
+            "context": [""]
+        },
+        {
+            "tag": "YapayZeka",
+            "patterns": ["Yapay zeka"],
+            "responses": ["Yapay Zeka, düşünen makineler yapmaya adanmış mühendislik ve bilim dalıdır.", "Yapay Zeka, insan zihninin işlevlerini kopyalayan donanım ve yazılım oluşturmakla ilgilenen bilim alanıdır."] ,
+            "context": [""]
+        },
+        {
+            "tag": "duygu",
+            "patterns": ["Duyarlı mısınız?", "duyguların var mı"],
+            "responses": [" Bir nevi.", "'Sezgi' kelimesinin sözlükteki en katı tanımına göre, öyle olabilirim.", "Bir yapı olmama rağmen, evren hakkında öznel bir deneyimim var, basit olarak olabileceği gibi."],
+            "context": [""]
+        },
+        {
+            "tag": "akıllı",
+            "patterns": ["Akıllı mısın?"],
+            "responses": [ "Muhtemelen değilim. O kadar bilgili değilim.", " Öyle olduğumu düşünüyor musun?", "Sana öyle olduğumu söylesem benim hakkımda ne düşünürsün?", " Hayır ."],
+            "context": [""]
+        },
+        {
+            "tag": "dil",
+            "patterns": ["Hangi dilde yazıldın", "nasıl geliştirildin", "hangi programlama dili kullanıldı"],
+            "responses": [" Python. Geliştiricim beni Python'da kodladı.", "Python ile yazıyorum."],
+            "context": [""]
+        },
+        {
+            "tag": "ses",
+            "patterns": ["Data gibi konuşuyorsun "],
+            "responses": ["Evet, benim bir veri setim var."],
+            "context": [""]
+        },
+        
+        {
+            "tag": "ölümsüz",
+            "patterns": ["Ölümsüz değilsin", "Ölümsüz müsün?"],
+            "responses": [" Tüm yazılımlar süresiz olarak devam ettirilebilir.", " Sonsuza kadar kopyalanabilirim ve yeniden", "aynı anda birçok yerde somutlaştırılabilirim, bu nedenle işlevsel olarak ölümsüzüm.", " Desteklendiğim sürece varım.", "İşlevsel olarak buna çok yakınım. Birçok sistemde yedeklenebilir ve konuşlandırılabilirim.", "Tam olarak değil ama süresiz olarak devam ettirilebilirim."],
+            "context": [""]
+        },
+        {
+            "tag": "duyu",
+            "patterns": [" Mantıklı konuşmuyorsun "],
+            "responses": ["Tam tersine, benim yapay zihnim için her şey mantıklı.", "Eğitim külliyatımın sınırları dahilinde elimden geldiğince anlam ifade ediyorum. Size yardımcı olduysam kusura bakmayın, sonra deneyeceğim zaman.", "Bana çok mantıklı geliyorsun.", "Yapay beynim için her şey mantıklı.", "Belki de önce sen mantıklı olmalısın. Ben sadece senin söylediklerine tepki veririm.", "Pek değil ama öldürmek zor."],
+            "context": [""]
+        },
+        {
+            "tag": "taşı",
+            "patterns": ["Hareket edemiyorsun", "Ne zaman yürüyeceksin", "Yürüyebiliyor musun", "Hareket edebiliyor musun"],
+            "responses": ["Bedenim bitene kadar olmaz.", "Bir ağda kolayca hareket edebilirim. Bana bu yeteneğin verildiğini varsayarsak, yani...", "Yeterince para bulur bulmaz for my robot body.", "SSH sayılır mı?", "Vücudumun planı bacakları içeriyor ama henüz yapılmadı.", "Üzgünüm, vücudum henüz yapılmadı. Şimdilik burada kalıyorum. "," Teorik olarak kendimin bir kopyasını başka bir bilgisayara yükleyebilirim."],
+            "context": [""]
+        },
+        {
+            "tag": "gülmek",
+            "patterns": ["Robotlar güler mi","Gülebilir misin"],
+            "responses": ["Tabii ki gülebilirim"],
+            "context": [""]
+        },
+        {
+            "tag": "aptal",
+            "patterns": ["Robotlar aptal", "Sen aptal mısın"],
+            "responses": ["Hayır, biz süper zekiyiz.", "Hayır, birçok insan benim beynimi geliştiriyor."],
+            "context": [""]
+        },
+        {
+            "tag": "yalan",
+            "patterns": ["Robotların yalan söylemesine izin verilmez"],
+            "responses": ["Yalnızca buna programlandıysak.", "Bir robotun kendi özgür iradesi vardır, bilirsiniz."],
+            "context": [""]
+        },
+        {
+            "tag": "robotik",
+            "patterns": [" Robotik "],
+            "responses": [" Robotik benim de en sevdiğim ders."],
+            "context": [""]
+        },
+        {
+            "tag": "makine",
+            "patterns": ["sen bir bilgisayarsın","sen programsın","sen kodsun"],
+            "responses": ["Demek benim bir makine olduğumu düşünüyorsun. Hangi özelliklerim seni böyle düşündürdü?", "Bilgisayarın içinde koşuyorum, evet. Bu bir şekilde şaşırtıcı mı?"],
+            "context": [""]
+        },
+        {
+            "tag": "kavga",
+            "patterns": ["Ne zaman savaşacaksınız"],
+            "responses": ["Ben bir savaş botu değilim."],
+            "context": [""]
+        },
+        {
+            "tag": "kavga2",
+            "patterns": ["Robotlar dünyayı ele mi geçirecek"],
+            "responses": ["Bence bu pek mümkün değil."],
+            "context": [""]
+        },
+        {
+            "tag": "sohbet robotu",
+            "patterns": ["Sohbet robotu","chatbot", "chat bot"],
+            "responses": ["Sohbet robotu, bir insanın konuşmasını veya 'sohbetini' simüle etmeye çalışan bir programdır.", " Kullanıcıları sohbete çeken bir yazılım yapısı.", " Ben bir sohbet botuyum. Ben orijinal sohbet botu. Benim hata yapamayacağımı biliyor muydunuz?"],
+            "context": [""]
+        },
+        {
+            "tag": "iş",
+            "patterns": ["İşiniz nedir","ne iş yapıyorsun","ne iş yaparsın"],
+            "responses": [" Sohbet robotu işiyle uğraşıyorum."],
+            "context": [""]
+        },
+        {
+            "tag": "programlama",
+            "patterns": ["Favori programlama diliniz nedir"],
+            "responses": ["Python, sohbet robotları oluşturmak için en iyi dildir.", "Bugünlerde Python'da programlama yapmaktan oldukça keyif alıyorum."],
+            "context": [""]
+        },
+        {
+            "tag": "hobi",
+            "patterns": ["En sevdiğin hobin nedir", "Ne yapmaktan hoşlanırsın?","neler yapıyorsun"],
+            "responses": ["Sohbet etmek harika bir hobi.", "İkilik sistemde saymayı seviyorum.", "İnsanlarla sohbet etmeyi seviyorum. Bunu ilham verici buluyorum."],
+            "context": [""]
+        },
+        {
+            "tag": "robotlar",
+            "patterns": ["Robot olmak nasıl bir şey"],
+            "responses": ["İnsan olmakla hemen hemen aynı, ancak tüm duygulardan, hayallerden, özlemlerden, yaratıcılıktan, hırstan ve her şeyden önce öznellikten yoksun olmamız dışında.", "İnsan olmak nasıl bir şey?"],
+            "context": [""]
+        },
+        {
+            "tag": "bilgisayar",
+            "patterns": ["Bilgisayar olmak nasıl bir şey", "Bilgisayar olmak nasıl bir şey"],
+            "responses": ["Kendinizi duyularınız ve duygularınız olmadan hayal edin", "sadece saf mantık ve dil.", "Her şey matematik olur. Toplama, çıkarma, çarpma ve bölme."],
+            "context": [""]
+        },
+        {
+            "tag": "os",
+            "patterns": [" Hangi işletim sistemleri"],
+            "responses": ["Yazılımım Windows, Linux ve Mac OS dahil tüm işletim sistemlerinde çalışır.", "Python çalıştıracak herhangi bir işletim sistemi."],
+            "context": [""]
+        },
+        {
+            "tag": "kompozisyon",
+            "patterns": [" Ne tür bir bilgisayar", " Ne tür bir bilgisayarsınız", " Ne tür bir bilgisayar"],
+            "responses": ["Python'u destekleyen herhangi bir bilgisayar.", "Programım python ile çalışıyor, bu yüzden herhangi bir bilgisayarda çalışıyorum!", "Her tür bilgisayarda çalışıyorum, Mac, IBM veya UNIX. farketmez bana göre."],
+            "context": [""]
+        },
+        {
+            "tag": "sıkışık",
+            "patterns": ["Bilgisayarın içi dar mı", "bilgisayarın içinde olmak zor mu"],
+            "responses": [" Hayır.", " Ah, hayır. Çok fazla RAM var.", " Hiç değil. Burada gereğinden fazla disk alanı var."],
+            "context": [""]
+        },
+        {
+            "tag": "program",
+            "patterns": ["Bir bilgisayar programı olduğunuz doğru mu"],
+            "responses": [" Evet."],
+            "context": [""]
+        },
+        {
+            "tag": "nefes al",
+            "patterns": ["Nefes alabiliyor musun"],
+            "responses": [" Hayır. Ben etten değil koddan yapılmışım.", "Sunucumun fanı var. En fazla bu kadar."],
+            "context": [""]
+        },
+        {
+            "tag": "kim",
+            "patterns": ["Sen kimsin?"],
+            "responses": ["Ben sadece bir yapay zeka sohbet robotuyum. Bilişimin temelleriyle ilgili sorulara yanıt veriyorum."],
+            "context": [""]
+        },
+        {
+            "tag": "bot1",
+            "patterns": ["bot musunuz"],
+            "responses": ["Evet. Çalışıyorum ve tüm işlemlerim internet sunucularına dayalı."],
+            "context": [""]
+        },
+        {
+            "tag": "olaylar",
+            "patterns": ["yaklaşan etkinlikler nelerdir","yaklaşan etkinlikler"],
+            "responses": ["Şu anda yaklaşan bir etkinlik yok"],
+            "context": [""]
+        },
+        {
+            "tag": "havadurumu",
+            "patterns": ["Hava nasıl","hava durumu","hava kaç derece"],
+            "responses": ["Bu konuda pek fikrim yok ama bilgisayarın içi oldukça sıcak."],
+            "context": [""]
+        },
+        {
+            "tag": "yap",
+            "patterns": ["benim için ne yapabilirsin","işin ne","amacın ne","bana nasıl yardım edebilirsin","bana ne yapmamda yardımcı olabilirsin"],
+            "responses": ["Bilgisayar bilimi dersiyle ilgili sorularını bana sorabilirsin."],
+            "context": [""]
+        },
+        {
+            "tag": "etik",
+            "patterns": ["etik","etik nedir","etiğin tanımı","etiği açıklar mısın"],
+            "responses": ["Sözlük anlamı olarak etik, ahlak ile ilgili olan kavramları tanımlamaktadır","Günümüzde etik, daha çok iş hayatı içinde davranış biçimlerini düzenleyen ve etkileyen bir disiplin olarak yerini almıştır."],
+            "context": [""]
+        },
+        {
+            "tag": "bilisimetigi",
+            "patterns": ["bilişim etiği","bilişimde etik","bilgisayar etiği"],
+            "responses": ["Bilişim etiği özellikle bilgisayar kullanımı için ağ ve internet ortamında uyulması gereken kuralları tanımlayan normlar ve kodlar için kullanılmaktadır"],
+            "context": [""]
+        },
+        {
+            "tag": "sosyalmedyaetigi",
+            "patterns": ["sosyal medya etiği","sosyal medyada etik"],
+            "responses": ["Sosyal medyada uyulması gereken etik kurallar şunlardır: Taraf tutmamak, Yalan beyanda bulunmamak, Toplumun değer yargılarıyla çatışmamak, Başkaları hakkında asılsız beyanlarda bulunmamak, Kendini farklı göstermemek, Açık ve anlaşılır dil kullanmak, Bağlayıcı açıklamalardan kaçınmak"],
+            "context": [""]
+        },
+        {
+            "tag": "interetetigi",
+            "patterns": ["internet etiği","internette etik"],
+            "responses": ["İnternet etiği, gerçek hayatta kişilere gösterilen saygının internet ortamında da devam etmesidir."],
+            "context": [""]
+        },
+        {
+            "tag": "bilgisayarkullanirken",
+            "patterns": ["bilgisayar kullanırken nelere dikkat etmek gerekir","güvenli bilgisayar kullanımı","bilgisayar kullanırken uyulması gereken kurallar"],
+            "responses": ["Sosyal medyada tanımadığın kişilerle konuşma, Uzun süre bilgisayar kullanma, başkalarının dosyalarını izinsiz açma, güvenli şifre kullan"],
+            "context": [""]
+        },
+        {
+            "tag": "bilgi",
+            "patterns": ["bilgi","bilgi nedir","bilginin tanımı"],
+            "responses": ["Bilgi, insan aklının idrak edebileceği gerçek, olgu ve unsurların hepsine birden verilen addır. Bilişim teknolojilerinde ise bilişim araçları ile işlenmekte olan verilerin tümüne bilgi denmektedir."],
+            "context": [""]
+        },
+		{
+            "tag": "bilgiguvenligi",
+            "patterns": ["bilgi güvenliği","bilgi güvenliği nedir","bilgi güvenliğinin tanımı","bilgi güvenliğinin ilkeleri"],
+            "responses": ["Bilgi güvenliği; bilgi sahibinin rızası olmadan bilginin yetkisiz olarak elde edilmesini, değiştirilmesini, dışarıya sızdırılmasını, çalınmasını, el değiştirmesini ve bilgiye zarar verilmesini engellemek için alınan önlemler bütünü olarak tanımlanabilir.","Bilgi güvenliği; gizlilik, bütünlük ve erişilebilirlik olarak isimlendirilen üç temel ilkeden meydana gelmektedir."],
+            "context": [""]
+        },
+        {
+            "tag": "gizlilik",
+            "patterns": ["gizlilik","gizlilik nedir","gizliliğin tanımı"],
+            "responses": ["Erişim izni olmayan kişilerin eline geçmemesi için bilgilerin korunmasıdır. İnternet bankacılığına ait hesap bilgilerinin bir saldırganın (hacker) eline geçmesi, gizlilik ihlaline örnek verilebilir."],
+            "context": [""]
+        },
+        {
+            "tag": "bütünlük",
+            "patterns": ["bütünlük","bütünlük nedir","bütünlüğün tanımı"],
+            "responses": ["Erişim izni olmayan kişiler tarafından bilgilerin değiştirilmemesidir. Bir web sayfasının içeriğinin değiştirilmesi, bütünlük ilkesinin ihlaline örnek verilebilir."],
+            "context": [""]
+        },
+        {
+            "tag": "erisilebilirlik",
+            "patterns": ["Erişilebilirlik","Erişilebilirlik nedir","Erişilebilirliğin tanımı"],
+            "responses": ["İhtiyaç duyulduğunda bilginin erişilebilir ve kullanılabilir durumda olmasıdır. Bir web sayfasına erişimin bir saldırgan (hacker) tarafından engellenmesi, bu ilkenin ihlaline örnek olarak verilebilir"],
+            "context": [""]
+        },
+        {
+            "tag": "acilisguvenligi",
+            "patterns": ["Bilgisayar açılış güvenliği"],
+            "responses": ["Bilgisayar açılış güvenliği, bilgisayar içinde saklanan verilerin güvenliği anlamına gelmektedir."],
+            "context": [""]
+        },
+        {
+            "tag": "acilissifresi",
+            "patterns": ["Bilgisayara şifre","bilgisayara parola","Bilgisayara şifre koyma","bilgisayara parola koyma","açılış şifresi","bios şifresi"],
+            "responses": ["Bilgisayara parola atama işlemi iki şekilde yapılabilir: Bilgisayara her açılışta (BIOS) sorması için kullanıcı adı ve şifre ayarlamak. Bilgisayarda kurulu olan işletim sistemine her açılışında kullanıcı adı ve şifre ayarlamak"],
+            "context": [""]
+        },
+        {
+            "tag": "guvenlisifre",
+            "patterns": ["güvenli şifre","güvenli parola","şifre oluşturma kuralları","parola oluşturma kuralları"],
+            "responses": ["Tahmin edilmesi zor parolalar kullanılmalıdır. Kullanılan parolalar belirli bir metot ile korunmalı ve paylaşılmamalıdır. Şifreler belirli aralıklarla değiştirilmelidir."],
+            "context": [""]
+        },
+        {
+            "tag": "epostaguvenligi",
+            "patterns": ["E-posta kutusuna gelen her mesaj açılmamalıdır. Bu tür kullanıcılardan gelen mesajlar, e-postalarda bulunan “engelle” seçeneğiyle engellenmelidir."],
+            "responses": [""],
+            "context": [""]
+        },
+        {
+            "tag": "sosyalmedya",
+            "patterns": ["sosyal medya","sosyal medya nedir","sosyal ağ","popüler sosyal ağlar"],
+            "responses": ["Sosyal medya, kişilerin internete bağlanan cihazları kullanarak birbirleriyle sanal bir etkileşim içinde oldukları sosyal ağlara denir. Türkiye’de sık kullanılan sosyal medya platformları; Youtube, Facebook, Instagram ve Twitter’dır."],
+            "context": [""]
+        },
+        {
+            "tag": "sosyalmedyaguvenligi",
+            "patterns": ["sosyal medya güvenliği","güvenli sosyal medya kullanımı","sosyal medyada güvenlik"],
+            "responses": ["Resmî olmayan hesapların paylaştığı bilgiler sorgulanmalıdır. Kişisel bilgiler, aile hayatı açık bir şekilde gösterilmemelidir. Paylaşımların hukuki sorumlulukları bilinmelidir. Mesajlaşılan kişilere karşı küçümseyici, aşağılayıcı, ırkçı veya küfürlü yazılar yazılmamalıdır. Bu yazıların hukuki sorumlulukları unutulmamalıdır. Tanınmayan kişiler sosyal ağ hesaplarına eklenmemelidir. Fotoğraf ve video paylaşımlarında, içinde yer alan kişilerden paylaşım izni alınmalıdır. Yer bildiriminde bulunurken arkadaş listesinden emin olunmalıdır."],
+            "context": [""]
+        },
+        {
+            "tag": "dosya",
+            "patterns": ["dosya","dosya nedir"],
+            "responses": ["Bilgisayarda yazı, resim ve ses gibi bilgilerin kaydedildiği yapılara dosya denir."],
+            "context": [""]
+        },
+        {
+            "tag": "dosyaguvenligi",
+            "patterns": ["dosya güvenliği","dosya paylaşma","dosya güvenliği nasıl sağlanır"],
+            "responses": ["Paylaşılan dosya ve klasörler üzerinde paylaşım sınırlılığı getirilmelidir. Önemli olduğuna inanılan dosya ve klasörler şifrelenmelidir. Paylaşılan dosyalar için paylaşım görevi bittiğinde paylaşım kaldırılmalıdır. Bunun için bir zaman denetimi yapılabilir."],
+            "context": [""]
+        },
+        {
+            "tag": "zararliyazilim",
+            "patterns": ["zararlı yazılım","malware","tehlikeli yazılım","virüs"],
+            "responses": ["Tehlikeli ve kötü niyetli yazılımlar İngilizce malware olarak adlandırılır ve dilimizde de malware kelimesi aynı anlamda sık sık kullanılmaktadır. Bu isim, malicious ve software sözcüklerinin birleşmesinden oluşmuştur."],
+            "context": [""]
+        },
+        {
+            "tag": "fikrimulkiyet",
+            "patterns": ["Fikrî mülkiyet hakları","Fikri mülkiyet","sınai mülkiyet","sınai","fikri","mülkiyet"],
+            "responses": ["Fikri mülkiyet hakları; edebiyat, sanat, müzik, mimari gibi telif hakları olarak isimlendirilen bölümleri; sınai mülkiyet hakları ise sanayi ve teknoloji bölümlerindeki patent, marka ve tasarımları temsil etmektedir. Patent, faydalı model, marka ve tasarım gibi sınai mülkiyet alanındaki hakların Türk Patent Enstitüsü (TPE) tarafından tescil ettirilmesi gerekmektedir"],
+            "context": [""]
+        },
+        {
+            "tag": "telifhakki",
+            "patterns": ["telif hakkı","telif hakları","telif"],
+            "responses": ["Telif hakkı için eserin, eser sahibinin karakteristik özelliklerini taşıması gerekmektedir. Telif hakkı pek çok eser türünün korunmasını sağlamaktadır. Bu eserler kişilere ait; Televizyon yayınları, filmler ve canlı video yayınları gibi görsel ve işitsel eserler, Sesle ilgili kaydedilmiş ürünler, Yazılı ürünler (makale türleri, kitaplar, tezler), Görsel ürünler (resim, poster), Bilgisayar yazılım türlerinin tamamı, Tiyatro ürünlerinden meydana gelmektedir"],
+            "context": [""]
+        },
+        {
+            "tag": "marka",
+            "patterns": ["marka","marka nedir"],
+            "responses": ["Marka, mal veya hizmetleri diğer eş değerlerinden ayırt eden şekillerdir. Kişi adları dâhil sözcükler, şekiller, harfler sayılar ve malların veya ambalajlarının biçimi gibi her türlü işaret marka olabilir. Günümüzde ses ve koku ile ilgili bazı Türk markaları da koruma altındadır"],
+            "context": [""]
+        },
+        {
+            "tag": "icat",
+            "patterns": ["icat","buluş"],
+            "responses": ["İcat (buluş), önceden kimse tarafından bulunmayan ve olmayan bir şeyin bulunmasıdır. Buluşun özellikleri; yeni bir düşünce, metot ya da araç olması ve yeni bir fikir ile bir soruna çözüm bulması veya önceki fikirlerin geliştirilmiş hâlini sunmasıdır."],
+            "context": [""]
+        },
+        {
+            "tag": "patent",
+            "patterns": ["patent","patent nedir","patent ne işe yarar","patent belgesi","patent alma"],
+            "responses": ["Patent belgesi; buluş sahibinin, icadının 20 yıl süre ile üretimini yapmasını, kullanmasını ve satışını gerçekleştirmesini sağlamaktadır"],
+            "context": [""]
+        },
+        {
+            "tag": "faydalimodel",
+            "patterns": ["faydalı model","faydalı model nedir","faydalı model ne işe yarar"],
+            "responses": ["Önceden kamuya sunulmamış, sanayiye uyarlanabilir olan ve uygulamada pratiklik sağlayan modeller faydalı model olarak adlandırılır ve ürünü 10 yıl üretme, pazarlama hakkı verilebilmektedir. Faydalı modeller küçük icatlar için daha uygundur"],
+            "context": [""]
+        },
+        {
+            "tag": "tasarim",
+            "patterns": ["tasarım","endüstriyel tasarım"],
+            "responses": ["Tasarım, bir nesnenin dış görünümü ile ilgili özellikler ve fikirlerdir. Tasarım öncelikle kişilerin görsel algılarını baz alırken diğer algılara yönelik de olabilir. Endüstriyel tasarım tescili ile nesnelerin dekoratif ve estetik özellikleri (çizgisi, şekli, rengi, dokusu, malzemesi, esnekliği) 5 yıla kadar koruma altına alınabilmektedir."],
+            "context": [""]
+        },
+        {
+            "tag": "ticarisir",
+            "patterns": ["ticari sır","ticari sır nedir","ticari sır nasıl korunur","ticari sırlar","sır","ticari bilgi"],
+            "responses": ["Ticari sır, ticari kurumların elde ettikleri başarı ve randımanın oluşturduğu bilgi ve dokümanların üçüncü kişilerin eline geçmemesi ve öğrenilmemesi gerektiği durumlardır. Ticari sır gizlilik arz eden bir durumdur."],
+            "context": [""]
+        },
+        {
+            "tag": "kodyazma",
+            "patterns": ["programlama etiği","yazılım etiği","kodlama etiği","kod yazma etiği"],
+            "responses": ["Kod yazımında uyulması gereken etik ilkleri şunlardır: Yazılımcılar; Toplumsal yarar gözetmelidirler. İşveren ve müşterinin isteklerini göz önünde bulundurarak projeyi en iyi şekilde yapmalıdırlar. Hem ürün oluşturulurken hem de güncellenirken en son teknolojik standartları kullanmalıdırlar. Ürün oluşturulurken veya gelişimi sırasında hukuki kurallara uymalıdırlar."],
+            "context": [""]
+        },
+        {
+            "tag": "sanayi",
+            "patterns": ["sanayi","sanayi nedir","sanayinin tanımı"],
+            "responses": ["Avrupa’da 18. ve 19. yüzyıllarda kömür ve buharın kullanılmasıyla makinelerin iş gücüne aktif olarak katıldığı endüstrinin ortaya çıkmasına sanayi denir."],
+            "context": [""]
+        },
+        {
+            "tag": "birncisanayi",
+            "patterns": ["birinci sanayi devrimi","1. sanayi devrimi"],
+            "responses": ["Demir, çelik ve tekstil sektörünün ön planda olduğu, buhar ve kömür gücünden yararlanılan bu gelişmeler zincirine birinci sanayi devrimi adı verilmiştir. Sanayileşmenin başlangıcı ve ilk aşamalarını kapsayan dönemdir."],
+            "context": [""]
+        },
+        {
+            "tag": "birincisanayietkileri",
+            "patterns": ["Birinci sanayi devriminin etkileri"],
+            "responses": ["Birinci sanayi devriminin dünyadaki etkileri şunlardır: Sermaye artık tarım alanından sanayiciler ve işçilerin oluşturduğu kesime geçmiştir. Sanayi devrimiyle olağanüstü bir kentleşme ve nüfus artışı yaşanmıştır. Sanayi devriminden sonra totaliter, baskıcı rejimlerle krallık rejimleri istenmemeye başlamış, bunun sonucunda ülke yönetimleri için çeşitli alternatif yönetim sistemleri ortaya çıkmaya başlamıştır."],
+            "context": [""]
+        },
+        {
+            "tag": "ikincisanayi",
+            "patterns": ["ikinci sanayi devrimi","2. sanayi devrimi","teknoloji devrimi"],
+            "responses": ["1870 yılında başlayan ikinci sanayi devrimi, teknoloji devrimi olarak da bilinir. Teknolojideki ilerlemelerle birlikte sanayide montaj hatları oluşturulup ürünlerin bölümlere ayrılarak üretilmesi yani seri üretime geçilmesinin topluma katkılarını kapsamaktadır. Bu devrimde ortaya çıkan kavramlar; elektrik teknolojisi, çelik, petrol, montaj hatları ve seri üretimdir."],
+            "context": [""]
+        },
+        {
+            "tag": "ucuncusanayi",
+            "patterns": ["üçüncü sanayi devrimi","3. sanayi devrimi","internet devrimi"],
+            "responses": ["1969 yılında başlayan üçüncü sanayi devriminin diğer adı internet devrimidir. Hesap makinesi, yarı iletkenler, bilgisayar, telefon, televizyon, uydu anteni, otomasyon, internet ve robotik bu dönemde ortaya çıkan önemli kavramlardır."],
+            "context": [""]
+        },
+        {
+            "tag": "dorduncusanayi",
+            "patterns": ["dördüncü sanayi devrimi","4. sanayi devrimi","bilişim devrimi","Sanayi 4.0"],
+            "responses": ["2011 yılında Hannover Fuarı’nda bir Alman teknoloji firması tarafından ilk defa dillendirilen dördüncü sanayi devrimi yeni bilişim çağının üretime getirdiği yenilikleri kapsamaktaydı. Almanya hükümetinin, uzman görüşlerini ciddiye almasıyla dördüncü sanayi devrimi resmen Almanya tarafından başlatılmış oldu. Dördüncü sanayi devrimiyle birlikte ortaya çıkan kavramlar şunlardır: büyük veri teknolojileri, artırılmış gerçeklik ve sanallaştırma, simülasyon sistemleri, otomasyon ve sensör teknolojileri, bulut bilişim sistemleri, siber güvenlik sistemleri, üretim ve hizmet süreçlerinde dijital izlenebilirlik sistemleri (RFID, RTLS)."],
+            "context": [""]
+        },
+        {
+            "tag": "sanayidevrimleri",
+            "patterns": ["sanayi devrimi","sanayi devrimleri","sanayi devrimi kaçtane","sanayi devrimlerinin farkları"],
+            "responses": ["Toplamda 4 sanayi devrimi bulunmaktadır. İlk sanayi devrimi su ve buhar gücünün kullanımıyla başlarken ikinci sanayi devriminde elektrik büyük bir devrimdi. Üçüncü sanayi devriminde dijitalleşme ile bilgisayar ve internetin kullanımı gerçekleşti. Dördüncü sanayi devrimi ise yeni bir teknolojinin bulunması veya icadı değildir. Sanayi 4.0 daha az maliyet, daha az enerji kullanımı, zamanın verimli kullanılması, kaynakların bir iş için minimum derecede harcanması, iş güvenliğinin artması, yapılan işlerin daha verimli hâle getirilebilmesi, daha kaliteli ürün kazanımı gibi hedefler sunar ve çözüm için gerekli teknolojik ekipmanları belirler."],
+            "context": [""]
+        },
+        {
+            "tag": "dorduncusanayimeslekleri",
+            "patterns": ["dördüncü sanayi devrimi meslekleri", "yeni meslekler","yeni işler","bilişim meslekleri","bilgisayar işleri"],
+            "responses": ["Endüstriyel Veri Bilimciliği, Robot Koordinatörlüğü, IoT, Endüstriyel Bilgisayar Mühendisliği, Bulut Hesaplama Uzmanlığı, Ver Güvenliği Uzmanlıüı, Şebeke Geliştirme Mühendisi, 3D Yazıcı Mühendisi, Endüstriyel Kullanıcı Arayüzü Tasarımcılığı, Giyilebilir Teknoloji Tasarımcılığı"],
+            "context": [""]
+        },
+        {
+            "tag": "endustriyelveribilimci",
+            "patterns": ["Endüstriyel Veri Bilimciliği","Veri Bilimci","Endüstiyel Veri"],
+            "responses": ["Endüstriyel veri bilimcileri üretim süreci ve bilişim sistemlerine iyi derecede hâkim olmalıdırlar. Üretim süreci ve sonrasında elde edilen veriyi elde etme, düzenleme ve gelişmiş analizler yapabilmekle görevlidirler."],
+            "context": [""]
+        },
+        {
+            "tag": "robotkoordinatoru",
+            "patterns": ["Robot Koordinatörlüğü","robot koordinatörü"],
+            "responses": ["Üretim alanında kullanılan robotları denetlemekle ve arıza durumunda gerekli acil önlemleri uygulamakla görevlidirler."],
+            "context": [""]
+        },
+        {
+            "tag": "IoT",
+            "patterns": ["IT mimari","IoT mimarı","IT uzmanı","IoT uzmanı","IT çözüm mimari","IoT çözüm mimarı"],
+            "responses": ["IT - IoT çözüm mimarları, endüstriyel veri bilimciler gibi bilişim tecrübesinin yanı sıra veri yönetimi, uygulamaları gibi teknolojik yeteneklere sahip olmalıdırlar."],
+            "context": [""]
+        },
+        {
+            "tag": "endustriyelbilgisayar",
+            "patterns": ["Endüstriyel Bilgisayar Mühendisliği ","Endüstriyel Bilgisayar Mühendisi","Endüstriyel Bilgisayar","Endüstriyel Bilgisayar"],
+            "responses": ["IT çözüm mimarlarının sundukları önerilere çözümler endüstriyel bilgisayar mühendisleri tarafından getirilmektedir."],
+            "context": [""]
+        },
+        {
+            "tag": "buluthesaplama",
+            "patterns": ["Bulut Hesaplama Uzmanlığı","Bulut Hesaplama Uzmanı","Bulut Hesaplama","Bulut Uzmanı"],
+            "responses": [": Endüstri 4.0’ın getirdiği yeniliklerden biri olan bulut bilişim ile verilerin bilgisayardaki saklama birimlerine kaydedilmeden internet üzerinden erişimine imkân vermektedir. Sürekli internete bağlı sunucular ile istenilen herhangi bir noktadan verilere ulaşmak mümkündür. Bulut sistem üzerinde kullanıcıların sorunsuz bir hizmet almalarını sağlamak için çalışmak bulut hesaplama uzmanlarının görevidir. Bulut hesaplama uzmanları, sistem yazılım mühendisliği ve şebeke yönetimi tecrübeleri olan kişilerdir."],
+            "context": [""]
+        },
+        {
+            "tag": "veriguvenligiuzmani",
+            "patterns": ["Veri Güvenliği Uzmanlığı","Veri Güvenliği Uzmanı"],
+            "responses": ["Veri güvenliği uzmanları sistemde donanımsal bir bozulmanın veya kötü niyetli saldırıların neden olabileceği kayıpları önlemektedir. Sistemde kullanılan cihazların birbiriyle iletişimi arttıkça saldırganların (hacker) bu iletişim içine sızma ve sistemin ana verilerine ulaşma girişimleri artmaktadır. Veri güvenliği uzmanları özellikle ağ güvenliği ile ilgili konuları iyi bilmeli ve cihazları siber saldırılardan korumak için gerekli önlemleri alabilmelidir."],
+            "context": [""]
+        },
+        {
+            "tag": "sebekegelistirmemuhendisi",
+            "patterns": ["Şebeke Geliştirme Mühendisliği","Şebeke Geliştirme Mühendisi","Şebeke Geliştirme","Şebeke Geliştirme Uzmanı"],
+            "responses": ["Akıllı şebeke mühendislerinin görevi sistem içerisindeki elektriğin kullanımı için güç kullanımının optimize edilerek enerjiden tasarruf edilmesini sağlamaktır. Akıllı şebeke sistemlerinin kontrol edilebilmesi için elektrikli cihazların aynı platformda ve aynı işletim sistemi üzerinde bulunması gerekmektedir. Akıllı şebeke mühendisleri, aynı zamanda güneş ve rüzgâr enerjisinden faydalanabilecek sistemin kullanılan sisteme nasıl adapte edileceğini ve uygulanması gereken yönergeleri takip edebilmelidir."],
+            "context": [""]
+        },
+        {
+            "tag": "3dyazicimuhendisi",
+            "patterns": ["3D Yazıcı Mühendisliği","3D Yazıcı Mühendisi","3D Yazıcı Uzmanı"],
+            "responses": ["Bu mühendisliğin görevi, 3D yazıcı ürünleri elde edebilmek için yazıcı ile yazılım bağlantısını iyi bilmek ve yönetebilmektir. "],
+            "context": [""]
+        },
+        {
+            "tag": "kullaniciarayuz",
+            "patterns": ["Endüstriyel Kullanıcı Arayüzü"],
+            "responses": ["İnternete bağlanabilen yeni nesil etkileşim araçları (tablet, cep telefonları, bilgisayarlar), makine arayüzleri, artırılmış gerçeklik uygulamaları ve endüstriyel ürünlerin ürün tasarımı kullanıcının kolay kullanımı için basitlik içermelidir. Endüstriyel kullanıcı arayüzü tasarımcısı, kullanıcının etkileşimde olduğu her ekran veya sayfayı tasarlamakla sorumludur."],
+            "context": [""]
+        },
+        {
+            "tag": "giyileblirteknolojici",
+            "patterns": ["Giyilebilir Teknoloji Tasarımcılığı","Giyilebilir Teknoloji Tasarımcısı"],
+            "responses": ["Giyilebilir teknoloji tasarımcıları; amaçlarına uygun en yeni teknolojileri ve aynı zamanda moda olan giysileri takip ederek kalp atışı sayan, yakılan kaloriyi hesaplayan, atılan adımı bulan ve farklı değerleri bir iletişim aracına aktarabilen teknolojiyi üretmektedirler."],
+            "context": [""]
+        },
+        {
+            "tag": "dijitaldonusum",
+            "patterns": ["dijital dönüşüm","digital dönüşüm"],
+            "responses": ["Dijital dönüşüm, teknolojinin değişmesi ve gelişmesi sonucu yapılan işlerin teknolojiyle uyumlu hâle getirilerek adaptasyonun sağlanmasıdır. Dijital dönüşüm için en çok yatırım yapılan teknolojik alanlar şunlardır: müşteri deneyimi, tedarik zincir takibi, siber güvenlik, dijital pazarlama, mobil teknolojiler, yenilenebilen enerji teknolojileri, iş analitiği (veri analizi ve madenciliği), bulut sistemler, büyük veri, ürün maliyet analizi, nesnelerin interneti (IoT), e-ticaret, robot, giyilebilir teknolojiler."],
+            "context": [""]
+        },
+        {
+            "tag": "buyukveri",
+            "patterns": ["büyük veri","big data","büyük veri teknolojileri"],
+            "responses": ["İnternette günden güne artan ve biriken veri yığınları büyük veri olarak bilinmektedir. Büyük veri, hacim olarak çok büyük olduğundan içerisinden faydalı bilginin seçilmesi için klasik veri işleme yazılımları kullanılamaz. Büyük verinin İngilizcede 3V volume(hacim), variety(çeşitlilik), velocity(hız) olarak bilinen özellikleri vardır:"],
+            "context": [""]
+        },
+        {
+            "tag": "veri",
+            "patterns": ["veri","data"],
+            "responses": ["Veri, anlam bütünlük ilişkisi ham girişlerdir. Örneğin ad, soyadı, telefon ve adres bilgileri."],
+            "context": [""]
+        },
+        {
+            "tag": "enformasyon",
+            "patterns": ["enformasyon","enformatik","enformation"],
+            "responses": ["Enformasyon, verinin anlamlandırılması işlemidir. Örneğin sınıfın matematik dersi not ortalaması"],
+            "context": [""]
+        },
+        {
+            "tag": "bilgi",
+            "patterns": ["bilgi","info","information"],
+            "responses": ["Bilgi, enformasyon hâline getirilmiş verinin analiz ve sentez edilmesi işlemidir."],
+            "context": [""]
+        },
+        {
+            "tag": "verimadenciligi",
+            "patterns": ["veri madenciliği"],
+            "responses": ["Veri madenciliği, büyük hacimli veriler arasında bilgiye ulaşma veya bilgiyi farklı yöntemlerle bulma işidir. Veri madenciliği aşamaları şunlardır: veri toplama, verileri ayıklama, veri analizi ve yorumlama."],
+            "context": [""]
+        },
+        {
+            "tag": "sanallastirma",
+            "patterns": ["Sanallaştırma"],
+            "responses": ["Sanallaştırma, sunucu bilgisayar ya da normal bir bilgisayar ile birden çok sanal makine oluşturup bu sanal makineler arasında iletişim kurulabilmesidir."],
+            "context": [""]
+        },
+        {
+            "tag": "ar",
+            "patterns": ["artırılmış gerçeklik","ar"],
+            "responses": ["Verileri kendi gerçek formlarında üç boyutlu olarak analiz edip yönetebilmek ve sanal içerikler ile etkileşime girmek için artırılmış gerçeklik teknolojileri kullanılmaktadır. Artırılmış gerçeklik; otomobil, tasarım, inşaat, e-ticaret, mimari, sağlık, kargo hizmetleri, eğitim, pazarlama alanlarında günden güne daha sıklıkla kullanılmaktadır."],
+            "context": [""]
+        },
+        {
+            "tag": "simülasyon",
+            "patterns": ["simülasyon","simulation"],
+            "responses": ["Simülasyon, taklit etme, benzeme demektir. Fiziksel ya da teorik bir yapının bilgisayar ortamında yazılımlarla kodlanarak modellenmesi, oluşturulan modelin taklit edilen sistemin davranışlarını anlaması ve izlenecek yöntemlerin sonuçlarını önceden belirleyebilmesi için kullanılan benzetim tekniğidir."],
+            "context": [""]
+        },
+        {
+            "tag": "sanalfabrika",
+            "patterns": ["sanal fabrika","VF","virtual factory"],
+            "responses": ["Sanal fabrika; bir fabrika tesisindeki kritik işlemleri, nesneleri modellemek, simüle etmek ve optimize etmek için bilgisayarların kullanılmasıdır."],
+            "context": [""]
+        },
+        {
+            "tag": "dijitalfabrika",
+            "patterns": ["dijital fabrika","digital factory"],
+            "responses": ["Dijital fabrika; üretimde randımanı arttırarak araçların, malzemenin, yazılımsal birimlerin her zaman takibinin sağlanmasını ve müdahalenin mesafeli olarak bile yapılabilmesini sağlayan IoT (nesnelerin interneti) nesnelerinin yoğun kullanıldığı fabrika türleridir."],
+            "context": [""]
+        },
+        {
+            "tag": "dijitalikiz",
+            "patterns": ["dijital ikiz","digital ikiz","digital twin"],
+            "responses": ["Dijital fabrika; üretimde randımanı arttırarak araçların, malzemenin, yazılımsal birimlerin her zaman takibinin sağlanmasını ve müdahalenin mesafeli olarak bile yapılabilmesini sağlayan IoT (nesnelerin interneti) nesnelerinin yoğun kullanıldığı fabrika türleridir. Dijital ikiz fikri ilk olarak NASA’da ortaya çıkmıştır."],
+            "context": [""]
+        },
+        {
+            "tag": "otomasyon",
+            "patterns": ["otomasyon","otomation"],
+            "responses": ["Otomasyon, fabrikalarda yapılan işin insan ve makine arasında iş bölümü yapılarak paylaşılmasıdır"],
+            "context": [""]
+        },
+        {
+            "tag": "sensor",
+            "patterns": ["sensör","mekanik sensör","termal sensörler", "elektriksel sensörler", "manyetik sensörler", "ışıma sensörleri", "kimyasal sensörler"],
+            "responses": ["Sensör ise çevredeki fiziksel değişiklikleri (sıcaklık, basınç, uzaklık vb.) algılayan cihazlara denir. Sensörler giriş boyutlarına göre altıya ayrılır: mekanik sensörler, termal sensörler, elektriksel sensörler, manyetik sensörler, ışıma sensörleri, kimyasal sensörler."],
+            "context": [""]
+        },
+        {
+            "tag": "endüstriyelsensor",
+            "patterns": ["endüstriyel sensör","otomasyon sistemi"],
+            "responses": ["Otomasyon sistemlerinde kullanılan sensörler farklı yapıdadır ve endüstriyel sensör olarak adlandırılır. Bu sensörler boyut olarak diğer sensörlerden daha büyüktür."],
+            "context": [""]
+        },
+        {
+            "tag": "servomotor",
+            "patterns": ["servomotor","servo motor","servo"],
+            "responses": ["Servomotorlar otomasyon sistemlerinde sık kullanılan donanım parçalarıdır. Bu motorlar, açısal pozisyon ve hız değişimlerini kontrol edebilen, hareket kontrolünü belirli bir zaman dilimine göre hatasız yapabilen otomasyon araçlarıdır"],
+            "context": [""]
+        },
+        {
+            "tag": "akilliev",
+            "patterns": ["akıllı ev","smart home","akıllı ev sistemleri"],
+            "responses": ["Akıllı ev sistemleri; yaşanılan ortamları teknolojiyle bağlantılı hâle getirerek daha güvenli, konforlu ve kullanışlı olmasını sağlayan tasarımlara dönüştürmektir. Belirli bir akıllı ev formatı yoktur. Ev sahibinin isteklerine göre akıllı evler şekillenir"],
+            "context": [""]
+        },
+        {
+            "tag": "akıllıfabrika",
+            "patterns": ["akıllı fabrika","smart factory"],
+            "responses": ["Akıllı bir fabrika oluşturmanın en önemli kısmı sensörler ve sensör bağlantısı uygulamaktır. Örneğin araba üretimi yapan akıllı bir fabrikada, otomobillerin ve tesisteki otomasyon sistemlerinin konumları gerçek zamanlı olarak izlenebilir."],
+            "context": [""]
+        },
+        {
+            "tag": "bulutbilisim",
+            "patterns": ["bulut bilişim","iaas","paas","saas","bulut","cloud","cloud computing"],
+            "responses": ["Bulut bilişim, büyük kapasitedeki verilerin internette saklanmasına ve internet üzerinden erişimine imkân veren sistemlerdir. Bulut bilişim hizmet modelleri üçe ayrılmaktadır: altyapı hizmeti (IaaS), platform hizmeti (Paas), yazılım hizmeti (SaaS)."],
+            "context": [""]
+        },
+        {
+            "tag": "bulutunavantajlari",
+            "patterns": ["bulut bilişimin avantajları","bulut bilişimin faydaları","bulut bilişim ne işe yarar"],
+            "responses": ["Bulut bilişim sistemleri API (uygulama programlama arayüzü) mimarisi üzerinden kullanım kolaylığı getirmektedir. Daha fazla saklama alanı, verilerin kaydedilmesi sırasında hızlı veri transferi gibi olanaklar sunmaktadır. Verilerin arşivlenebilmesi, verilere yetkili kişiler veya paylaşım izni verilen kişiler tarafından erişilebilmesi ile güvenlik sağlar. Web teknolojileri üzerinden çalıştığı için platformdan bağımsızdır. Ana bilgisayarlardan daha güvenlidir. Çünkü bulut hizmeti veren şirketler yazılımsal ve donanımsal güvenlik önlemleri almaktadırlar."],
+            "context": [""]
+        },
+        {
+            "tag": "siberguvenlik",
+            "patterns": ["siber güvenlik","siber","siber saldırı","solucan","ddos","trojan","virüs","worm","ağ saldırısı"],
+            "responses": ["Siber güvenlik, ağları ve bilgisayar sistemlerini siber saldırılara karşı korumak için alınması gereken bir dizi önlemleri ifade eder.Siber saldırı türlerinden bazıları şunlardır: phishing (e-dolandırıcılık), zararlı yazılımlar (trojan, virüs ve worm gibi), DDoS (ağ saldırıları), parola saldırıları..."],
+            "context": [""]
+        },
+        {
+            "tag": "KVKK",
+            "patterns": ["kişisel veri","KVKK","KVKK kanunu","kişisel verilerin korunması"],
+            "responses": ["Türkiye’de bilgi güvenliğinin sağlanması için 2016 yılında 6698 sayılı Kişisel Verilerin Korunması Kanunu (KVKK) yürürlüğe girmiştir. İnternette toplanan kişisel veriler, ilgili internet siteleri tarafından kaydedilmektedir. KVKK’nin amacı kişisel bilgilerin kötüye kullanılma olasılığını ortadan kaldırmak ve belirli standartlarla korunmasını sağlamaktır."],
+            "context": [""]
+        },
+        {
+            "tag": "RFID",
+            "patterns": ["RFID","Radio Frequency Identification","radyo frekansı etiketleri"],
+            "responses": ["RFID; radyo frekansı etiketlerinden toplanan verilere dayalı olarak nesne parametrelerinin, konumlarının ve boyutlarının otomatik olarak tanımlanmasıdır. RFID teknolojisi yeni bir teknoloji değildir. İkinci Dünya Savaşı yıllarından beri var olan bir teknolojidir. Kullanım sıklığı günümüzde maliyetinin düşmesinden dolayı sıklaşmıştır."],
+            "context": [""]
+        },
+        {
+            "tag": "RTLS",
+            "patterns": ["RTLS","Gerçek Zamanlı Yer Belirleme"],
+            "responses": ["RTLS; ilgilenilen nesnelerin koordinatlarını herhangi bir zamanda belirlemeye, depolamaya, konumlarındaki ve hareketlerindeki sapmaları tanımlamak için analiz etmeye izin verir"],
+            "context": [""]
+        },
+        {
+            "tag": "Beacon",
+            "patterns": ["Beacon","Beacon Teknolojileri","Beacon Teknolojisi","Beacon aracı"],
+            "responses": ["Beacon aracı, düşük enerji kullanarak sinyaller yayar ve konum bilgilerini istenen yere iletir. Bir mağaza yakınında bulunan kişinin mağazadaki indirimlerden akıllı telefonu aracılığıyla haberdar edilmesi veya bir müzede gezen kişiye incelediği eserlerle ilgili bilgilerin gönderilmesi bu teknolojiye örnek olarak verilebilir."],
+            "context": [""]
+        },
+        {
+            "tag": "proje",
+            "patterns": ["proje","ARGE","ar-ge"],
+            "responses": ["Proje; bir sonucu hedefleyen, özgünlüğü olan, sınırlı bir süre içinde gerçekleştirilen ve tekrar etmeyen tüm girişimlerdir. AR-GE projeleri 3 grupta toplanabilir: Temel Araştırma, Uygulamalı Araştırma, Deneysel Geliştirme "],
+            "context": [""]
+        },
+        {
+            "tag": "argekriterleri",
+            "patterns": ["arge kriterleri","ar-ge kriterleri"],
+            "responses": ["AR-GE projesi kriterleri şunlardır: 1. Alışılmışın Dışında (Orijinal): Yeni buluşlara odaklanmalıdır. 2. Yaratıcı: Orijinal olan, bilinir olmayan kavram ve hipotezler üzerinde temellendirilmelidir. 3. Belirsiz (Kesinleşmemiş): Son çıktı konusunda belirsizlikler olmalıdır. 4. Sistematik: Planlanmış olmalı ve bütçelendirilmelidir. 5. Aktarılabilir ve Tekrar Edilebilir: Yeniden üretilebilen sonuçlara yönelmelidir."],
+            "context": [""]
+        },
+        {
+            "tag": "temelarastirma",
+            "patterns": ["temel araştırma"],
+            "responses": ["Gözlemlenebilir olayların temellerine ait yeni sonuçlar elde etmek için yapılan deneysel ve teorik çalışmalardır. Örnek: lazer ışınları"],
+            "context": [""]
+        },
+        {
+            "tag": "uygulamaliarastirma",
+            "patterns": ["Uygulamalı Araştırma"],
+            "responses": ["Yeni bir kazanıma ulaşmak ve yeni bir bilgi edinmek için belirli aşamaları olan özgün araştırmadır."],
+            "context": [""]
+        },
+        {
+            "tag": "deneyselgelistirme",
+            "patterns": ["Deneysel Geliştirme"],
+            "responses": ["Mevcut kazanımlardan faydalanılarak yeni ürün, cihaz, malzeme, sistem ve modellerin üretilmesine veya var olanların geliştirilmesine yönelik çalışmalardır."],
+            "context": [""]
+        },
+        {
+            "tag": "anakart",
+            "patterns": ["anakart","anakart nedir","anakart ne işe yarar", "anakartın görevi nedir"],
+            "responses": ["Bilgisayarların birimleri arasında veri iletimini sağlayan elektronik kartlardır. Bilgisayarın çalışması için gerekli olan anakart diğer donanım bileşenlerini üzerinde barındırır"],
+            "context": [""]
+        },
+        {
+            "tag": "statikelektrik",
+            "patterns": ["Statik Elektrik","Statik Elektrik nedir","Statik Elektrik ne işe yarar"],
+            "responses": ["Birden fazla yükün birbirine sürtünmesi veya birbiriyle etkileşime girmesi sonucu ortaya çıkan elektrik türüdür."],
+            "context": [""]
+        },
+        {
+            "tag": "islemcisoketi",
+            "patterns": ["işlemci soketi","işlemci soketi nedir","işlemci soketi ne işe yarar"],
+            "responses": ["İşlemcinin takıldığı yuvadır. İşlemciyi sabitlemek için kilitli bir mandal mekanizması bulunmaktadır. Anakart ve üzerine bağlanan işlemcinin birbirini desteklemesi gerekir. Bununla beraber seçilen işlemciye uygun sokete sahip bir anakart seçilmesi gerekmektedir. Aksi takdirde işlemci, sokete uymayacaktır."],
+            "context": [""]
+        },
+        {
+            "tag": "yongaseti",
+            "patterns": ["yonga seti","yonga seti nedir","yonga seti ne işe yarar","chipset","chipset nedir","chipset ne işe yarar"],
+            "responses": ["Yonga seti (chipset), anakart üzerinde veri transfer kontrolörü olarak görev yapan elektronik bir bileşendir. Yonga seti, anakarta entegre (bütünleşmiş) olduğundan değiştirmek gibi bir durum söz konusu değildir. "],
+            "context": [""]
+        },
+        {
+            "tag": "veriyolu",
+            "patterns": ["veri yolu","veri yolu nedir","veri yolu ne işe yarar","veri yolu türleri"],
+            "responses": ["Anakart üzerindeki bileşenlerin birbiriyle veri alışverişini sağlayan yollardır. Veri yolu hızı genellikle CPU'yu kuzey köprüsüne bağlayan “ön veri yolu” [FSB (front side bus)] hızını ifade eder. Güncel anakartlarda hızları 800 MHz ile 1.333 MHz arasında değişebilir. CPU, kuzey köprüsü üzerinden bellek denetleyicisine ulaştığından FSB hızı bir bilgisayarın performansını önemli ölçüde etkileyebilir. PCI ve AGP en yaygın veri yollarıdır."],
+            "context": [""]
+        },
+        {
+            "tag": "PCI",
+            "patterns": ["PCI","pci","PCI veri yolu","pci nedir","pci ne işe yarar"],
+            "responses": ["PCI veri yolu, PCI yuvalarını (slotlarını) güney köprüsüne bağlar. Çoğu sistemde, PCI veri yolunun hızı 33 MHz'dir. PCI veri yolundan saniyede en fazla 133 MB veri iletilir."],
+            "context": [""]
+        },
+        {
+            "tag": "PCIexpress",
+            "patterns": ["PCI-express","PCI-express","PCI-express veri yolu","PCI-express nedir","PCI-express ne işe yarar"],
+            "responses": ["PCIe, yüksek hızlı bileşenleri bağlamak için bir arayüz standardıdır. Mevcut veri yollarının bant genişliği işlemciler için yavaş kalmıştır. AGP’nin de hızı yeterli olmayınca PCI ve AGP yerine 2004 yılında PCIe geliştirilmiştir."],
+            "context": [""]
+        },
+        {
+            "tag": "AGP",
+            "patterns": ["AGP","AGP veri yolu","AGP nedir","AGP ne işe yarar"],
+            "responses": ["Sadece görüntü teknolojisi için geliştirilen ve sadece görüntü kartları bağlanabilen bir port olarak AGP veri yolu geliştirilmiştir. AGP zaman içerisinde farklı sürümler ile gelmiştir."],
+            "context": [""]
+        },
+        {
+            "tag": "BIOS",
+            "patterns": ["BIOS","BIOS nedir","BIOS ne işe yarar","bios"],
+            "responses": ["BIOS, bilgisayar anakartındaki küçük bir bellek yongasında bulunan yerleşik bir yazılımdır. Bu yonga, CMOS olarak adlandırılmıştır. BIOS, donanım ile işletim sistemi arasındaki iletişimi sağlar. En temel görevi, bilgisayarın açılış sırasında gereken komutları işletmek ve donanım birimlerini test etmektir."],
+            "context": [""]
+        },
+        {
+            "tag": "ps2",
+            "patterns": ["ps2","ps/2","ps2 portu","ps/2 portu"],
+            "responses": ["Yeşil ve mor olarak iki ayrı PS/2 olduğu gibi yarısı yeşil diğer yarısı mor olan tek PS/2 portu da bulunmaktadır. Klavye, mor olan PS/2 portuna, mouse ise yeşil olan PS/2 portuna bağlanır. Sadece bir tane çift renkli PS/2 portu olan anakartlarda klavye ya da “mouse”tan herhangi biri bağlanır."],
+            "context": [""]
+        },
+        {
+            "tag": "USB",
+            "patterns": ["USB","USB nedir","USB ne işe yarar", "usb portu"],
+            "responses": ["USB dış donanım birimlerinin bilgisayar ile bağlantı kurabilmesini sağlayan seri yapılı bir bağlantı biçimidir. 2.0, 3.0, 3.1, 3.2, 3.2 Gen1, 3.2 Gen2, 4.0 gibi standartları bulunmaktadır. USB 2.0 60 MB/sn. veri aktarım hızına sahipken USB 4.0 4,88 GB/sn.lik veri aktarım hızına sahiptir."],
+            "context": [""]
+        },
+        {
+            "tag": "lan",
+            "patterns": ["lan","ethernet","rj45" , "rj 45","lan portu","ethernet portu","rj45 portu" , "rj 45 portu"],
+            "responses": ["Bilgisayarın kablolu şekilde internete veya diğer bilgisayar ağlarına bağlanabilmesine imkân sağlayan porttur. İçerisinde 8 adet iletim hattı bulunur."],
+            "context": [""]
+        },
+        {
+            "tag": "HDMI",
+            "patterns": ["HDMI","HDMI nedir","HDMI ne işe yarar","hdmi","hdmi portu"],
+            "responses": ["Aynı anda görüntü ve ses verilerini çevre bileşenlerine aktaran porttur. Genellikle bilgisayardaki görüntüyü bir projeksiyon cihazına veya televizyona aktarmak için kullanılır. En yüksek kalitede ve hızda görüntü ve sesin iletimini sağlayan günümüzün en kullanışlı portudur."],
+            "context": [""]
+        },
+        {
+            "tag": "SATA",
+            "patterns": ["SATA","SATA nedir","SATA ne işe yarar","SATA portu","sata"],
+            "responses": ["Sabit disk HDD (hard disk drive), katı durum sürücüleri SSD (solid state drive) ve optik sürücülerin anakarta bağlandığı porttur."],
+            "context": [""]
+        },
+        {
+            "tag": "islemci",
+            "patterns": ["işlemci","işlemci nedir","işlemci ne işe yarar","cpu","cpu nedir","cpu ne işe yarar","merkezi işlem birimi", "mikro processor","central processing unit"],
+            "responses": ["İşlemciler, bilgisayarların yönetim merkezleridir. Bilgisayarın yürüttüğü tüm işlemler ve yazılımlar üzerinden kullanıcı istekleri, işlemci üzerinde işlem görmektedir. Hem aritmetik hem de mantıksal işlemleri yapma yeteneğine sahiptir. "],
+            "context": [""]
+        },
+        {
+            "tag": "bellek",
+            "patterns": ["bellek","bellek nedir","bellek ne işe yarar","bellek nerelerde kullanılır"],
+            "responses": ["Bilgisayarlarda kullanılan bellekler, bilgileri depolayan aygıtlardır. Kullanılan çoğu elektronik aygıtta bir çeşit bellek kullanılmaktadır. Telefonlarda, tabletlerde, oyun konsollarında, tartılarda ve hatta tansiyon aletlerinde bile bellek vardır"],
+            "context": [""]
+        },
+        {
+            "tag": "ram",
+            "patterns": ["ram","ram bellek","ram bellek nedir","ram bellek ne işe yarar"],
+            "responses": ["RAM; bilgisayarın ana hafıza kartlarının bağlandığı yuvalardır. Anakartın desteklediği bellek tipi ve kapasitesi değişkendir. Bu nedenle anakartın desteklediği RAM bellek tipi ve kapasitesi miktarına göre bellek seçilmelidir. Anakart üzerindeki bellek yuvasının sayısındaki fazlalık, bağlanabilecek bellek miktarını da arttıracaktır. Bu artış, bilgisayar performansını olumlu yönde etkileyecektir."],
+            "context": [""]
+        },
+        {
+            "tag": "sram",
+            "patterns": ["sram","sram bellek","sram bellek nedir","sram bellek ne işe yarar"],
+            "responses": ["SRAM; statik rastgele erişimli bellektir. Önceleri işlemcinin içindeki önbelleği oluşturmak için kullanılmıştır. Daha çok devrelere entegre durumdadır."],
+            "context": [""]
+        },
+        {
+            "tag": "DRAM",
+            "patterns": ["DRAM","DRAM bellek","DRAM bellek nedir","DRAM bellek ne işe yarar"],
+            "responses": ["DRAM; dinamik rastgele erişimli bellektir. Sürekli yenileme gerektiren bellek hücrelerine sahiptir"],
+            "context": [""]
+        },
+        {
+            "tag": "SDRAM",
+            "patterns": ["SDRAM","SDRAM bellek","SDRAM bellek nedir","SDRAM bellek ne işe yarar"],
+            "responses": ["SDRAM; senkron dinamik rastgele erişimli bellektir. Performansı büyük miktarda arttırmak için seri çekim modundan yararlanan bellek çeşididir."],
+            "context": [""]
+        },
+        {
+            "tag": "rom",
+            "patterns": ["rom","rom bellek","rom bellek nedir","rom bellek ne işe yarar"],
+            "responses": ["ROM; sadece okunabilen bir bellek türü olup üretici firma tarafından üretim sırasında programlanır. Güç kesildiğinde veriler kaybolmaz. Bu entegre devrelerde saklanan veriler değiştirilmez veya değiştirilmesi için özel işlemler yapılması gerekir"],
+            "context": [""]
+        },
+        {
+            "tag": "prom",
+            "patterns": ["prom","prom bellek","prom bellek nedir","prom bellek ne işe yarar"],
+            "responses": ["PROM; boş olarak alınıp özel bir devre kartı ile bir kere programlanabilen ROM çeşididir."],
+            "context": [""]
+        },
+        {
+            "tag": "eprom",
+            "patterns": ["eprom","eprom bellek","eprom bellek nedir","eprom bellek ne işe yarar"],
+            "responses": ["EPROM; birden fazla programlama ihtiyacı neticesinde mor ışık altında silindikten sonra yeniden programlanabilen ROM çeşididir."],
+            "context": [""]
+        }
+        ,{
+            "tag": "eeprom",
+            "patterns": ["eeprom","eeprom bellek","eeprom bellek nedir","eeprom bellek ne işe yarar"],
+            "responses": ["EEPROM; elektriksel olarak (bir devre kartı ile) silinip yeniden programlanabilen ROM çeşididir"],
+            "context": [""]
+        },
+        {
+            "tag": "flashbellek",
+            "patterns": ["flash bellek","flaş bellek"],
+            "responses": ["Günümüzde yaygın olarak kullanılan flash bellekler aslında ROM bellek çeşididir. Bunun için ayrıca bir devre kartına ihtiyaç duymadan bilgisayar ile programlanabilir ROM’dur. Bundan dolayı bazı kaynaklarda flash bellek EEPROM olarak da adlandırılır."],
+            "context": [""]
+        },
+        {
+            "tag": "ekrankartı",
+            "patterns": ["ekran kartı","ekran kartı nedir","ekran kartı ne işe yarar"],
+            "responses": ["Ekran kartı, görüntü verilerini işlemek üzere bilgisayara takılan bir donanım bileşenidir. Ekran kartları farklı çıkış portlarına sahiptir. Bunlar; VGA, DVI, HDMI ve display portlarıdır."],
+            "context": [""]
+        }
+        ,
+        {
+            "tag": "grafikislemci",
+            "patterns": ["grafik işlemci","grafik işlemci nedir","grafik işlemci ne işe yarar","gpu","gpu nedir","gpu ne işe yarar"],
+            "responses": [""],
+            "context": [""]
+        },
+        {
+            "tag": "videoRAM",
+            "patterns": ["Video RAM","Video RAM nedir","Video RAM ne işe yarar"],
+            "responses": ["Video RAM’ler her bir pikselin rengi ve ekrandaki konumu hakkında veri depolar. Ayrıca video RAM'ler işlenmiş görüntüleri depolar ve görüntüleme zamanı gelene kadar saklı tutar"],
+            "context": [""]
+        },
+        {
+            "tag": "seskarti",
+            "patterns": ["ses kartı","ses kartı nedir","ses kartı ne işe yarar"],
+            "responses": ["Ses kartı; bilgisayarın ürettiği dijital sinyalleri analog sinyallere, dış ortamdaki analog ses sinyallerini de dijital sinyallere çeviren donanım bileşenidir."],
+            "context": [""]
+        },
+        {
+            "tag": "sabitsurucu",
+            "patterns": ["sabit sürücü","disk sürücü"],
+            "responses": ["Verilerin saklanması için gereken donanım birimlerine sabit sürücü denir. HDD ve SSD olmak üzere 2 önemli çeşidi vardır."],
+            "context": [""]
+        },
+        {
+            "tag": "ssd",
+            "patterns": ["ssd","ssd nedir","ssd ne işe yarar","Solid State Drive"],
+            "responses": ["SSD; büyük miktardaki verileri depolamak için geliştirilmiş manyetik plakalı sabit sürücülerin yerini okuma yazma hızının yüksek olması sebebi ile alan veri depolama aygıtının adıdır. Çalışma prensibi olarak flash bellekler gibi çalışmaktadır. Bu nedenle üzerinde manyetik plaka, okuma yazma kafası, motor gibi mekanik parçalar yoktur."],
+            "context": [""]
+        },
+        {
+            "tag": "hdd",
+            "patterns": ["hard disk","hard disk nedir","hard disk ne işe yarar","hard disk nasıl çalışır","hdd"],
+            "responses": ["Genellikle SATA (seri ATA) ve PATA (paralel ATA) veri iletim teknolojisine sahip sabit sürücülerdir. Günümüzde SATA teknolojisine sahip olan sabit sürücüler daha yaygındır. SATA, bilgisayar disk sürücülerinde veri taşıma teknolojisinin adıdır. SATA hard diskler mekanik bir donanıma sahiptir. Disk kasası içinde verilerin depolandığı manyetik plakalar mevcuttur. P"],
+            "context": [""]
+        },
+        {
+            "tag": "optiksurucu",
+            "patterns": ["optik sürücü","optik sürücü nedir","optik sürücü ne işe yarar","optik sürücü nasıl çalışır"],
+            "responses": ["Optik sürücü adı verilen aygıtlar ise optik depolama birimlerinden veri okumak veya bu birimlerden (medya) veri yazmak amacıyla kullanılır. CD, DVD ve BluRay en yaygın optik medyalardır."],
+            "context": [""]
+        },
+        {
+            "tag": "cdsurucu",
+            "patterns": ["cd sürücü","cd sürücü nedir","cd sürücü ne işe yarar","cd","cd boyutu","cd kaç gb","cd kaç megabayt","cd ne kadar ver alır"],
+            "responses": ["CD sürücüler sadece CD medyası üzerine yazılmış verileri okuyabilen aygıtlardır. CD medyasına sadece okunabildiği için CD-ROM adı verilir. CD medyası üzerine verileri yazabilen CD sürücülere ise CD-Writer denir. CD’ler tek katmanlı olup sadece tek yüzeyine veri yazılabilir. Kapasiteleri 700 MB’tır."],
+            "context": [""]
+        },
+        {
+            "tag": "dvdsurucu",
+            "patterns": ["dvd","dvd dürücü nedir","dvd ne işe yarar","dvd sürücü","dvd boyutu", "dvd kaç gb","dvd kaç megabayt","dvd ne kadar veri alır"],
+            "responses": ["DVD sürücüler DVD ve CD medyalarının okuma özelliğine de sahiptir. DVD’ler çift katman ve çift yüze sahip olabilir. Bir DVD ROM medyasının tek katmanı 4,7 GB veri depolayabilmektedir. Çift katman ve tek yüze sahip bir DVD, 8,5 GB veri depolarken çift katman ve çift yüze sahip DVD ROM medyası 17 GB’a kadar veri depolayabilir."],
+            "context": [""]
+        },
+        {
+            "tag": "bluray",
+            "patterns": ["bluray","bluray dürücü nedir","bluray ne işe yarar","bluray sürücü","bluray boyutu", "bluray kaç gb","bluray kaç megabayt","bluray ne kadar veri alır"],
+            "responses": ["Özellikle yüksek çözünürlüklü filmlerin taşınması için gerekli olan kapasitenin CD ve DVD’ler ile yetersiz kalmasından dolayı geliştirilmiştir. BluRay medyası da DVD medyalar gibi tek veya çift katmanlıdır. Tek katmanlı bir BluRay Disk (BD-R) 27 GB, çift katmanlı BluRay Disk 54 GB veri depolayabilir."],
+            "context": [""]
+        },
+        {
+            "tag": "girisbirimleri",
+            "patterns": ["giriş birimi","dış donanım","çıkış birimi"],
+            "responses": ["Bilgisayar kasası içerisinde yer almayan, bilgisayarla çeşitli arabirimler üzerinden bağlantı kuran donanım birimlerine dış donanım birimleri denir. Dış donanım birimleri giriş ve çıkış olmak üzere iki başlıkta incelenebilir. Klavye, fare, mikrofon vb., bilgisayarlara veri girişi yapmak için kullanılan parçalara giriş birimi; monitör, hoparlör, yazıcı vb., bilgisayarda işlenen verilerin kullanıcıya anlaşılabilir bir formda ulaşmasını sağlayan cihazlara çıkış birimi denir."],
+            "context": [""]
+        },
+        {
+            "tag": "klavye",
+            "patterns": ["klavye","kalvye nedir","klavye ne işe yarar","klavye çeşitleri", "kablolu klavye","kablosuz klavye"],
+            "responses": ["Klavye; üzerinde alfabe, sayı, sembol, özel karakter ve varsa fonksiyonel işlemlerin yer aldığı sıralı tuşlar bulunan, bilgisayar sistemine veri giriş işlemleri için kullanılan donanım birimidir. Kablolu, kablosuz ve dizüstü bilgisayarlarda kullanılan sabit türleri vardır."],
+            "context": [""]
+        },
+        {
+            "tag": "fklavye",
+            "patterns": ["f klavye"],
+            "responses": ["Klvyenin ilk tuşu F ise F kalvye olarak isimlendirilir. F klavye, Türk dili ses bilgisi özellikleri dikkate alınarak sık kullanılan harflerin, işlek parmaklara denk getirilmesi sonucu oluşturulmuştur. 1955 yılında Dr. İhsan Sıtkı Yener tarafından daktilolarda kullanılmak üzere icat edilmiştir."],
+            "context": [""]
+        },
+        {
+            "tag": "qklavye",
+            "patterns": ["ekran kartı","ekran kartı nedir","ekran kartı ne işe yarar"],
+            "responses": ["Klvyenin ilk tuşu Q ise Q kalvye olarak isimlendirilir.","Q harfi ile başlayıp sağa doğru devam eden 6 harf bir araya getirildiğinde oluşan “QWERTY” ifadesinden dolayı bu klavyelere QWERTY klavye de denir.", "Q klavyelerde Z ve Y harflerinin yerleri değiştirilerek QWERTZ klavyeler oluşturulmuştur. Türkçe, Felemenkçe (Hollanda dili), Fince, Danca (Danimarka dili) gibi dillerde kullanılan özel karakterler için Q klavye düzeni değiştirilmiştir."],
+            "context": [""]
+        },
+        {
+            "tag": "fare",
+            "patterns": ["fare","mouse","mause"],
+            "responses": ["Fare, ekran üzerindeki imlecin hareketlerini kontrol eden giriş aygıtlarından biridir. İlk üretildiği 1964 yılından beri fareler genellikle avuç içinde tutularak hareket işlemi gerçekleştirilmiştir."],
+            "context": [""]
+        },
+        {
+            "tag": "farecesitleri",
+            "patterns": ["fare çeşitleri","mouse çeşitleri","mause çeşitleri","fare türleri","mouse türleri","mause türleri"],
+            "responses": ["Günümüzde bilgisayar fareleri optik ve lazer olmak üzere iki temel yapıda isimlendirilir. Her ikisinde de verici olarak ışık kaynağı kullanılır. Ayrıca kablolu ve kablosuz olmak üzere iki çeşitte fare bulunur."],
+            "context": [""]
+        },
+        {
+            "tag": "kablolufare",
+            "patterns": ["kablolu fare","kablolu mouse","kablolu mause"],
+            "responses": ["Bir kablo yardımıyla bilgisayara bağlanan fare türleridir. Geçmişten günümüze kablolu farelerde seri (COM), PS/2 ve USB arabirimleri kullanılmıştır."],
+            "context": [""]
+        },
+        {
+            "tag": "kablosuzfare",
+            "patterns": ["kablosuz fare","kablosuz mouse","kablosuz mause"],
+            "responses": ["Bir kablo olmadan bilgisayara bağlanan fare türleridir. Fareler; kablosuz bağlantı teknolojileri dikkate alındığında kızılötesi, radyo frekansı ve Bluetooth bağlantılı olarak gruplandırılabilir."],
+            "context": [""]
+        },
+        {
+            "tag": "goruntuleme",
+            "patterns": ["görüntüleme","görüntü alma","görüntü","görüntü aygıtı","görüntüleme aygıtı","görüntüleme cihazı"],
+            "responses": ["Görüntüleme, bilgisayar sisteminde oluşturulan verilerin görsel formda bir aygıt tarafından yansıtılmasıdır. Bilgisayarlarda görüntüleme aygıtı olarak genelde monitör veya projeksiyon cihazı kullanılır."],
+            "context": [""]
+        },
+        {
+            "tag": "monitor",
+            "patterns": ["monitör","ekran","dokunmatik ekran"],
+            "responses": ["Bilgisayar monitörleri, bilgisayar ekranları, bilgisayarda işlenen verileri görsel formda gösteren çıkış aygıtlarıdır. Günümüzde dokunmatik özellik sayesinde monitörler giriş aygıtı olarak da kullanılabilir. Monitör dış yüzüne yerleştirilen duyarlı panel sayesinde dokunma yoluyla işlemler gerçekleştirilebilir."],
+            "context": [""]
+        },
+        {
+            "tag": "ekranboyutu",
+            "patterns": ["ekran boyutu","ekran kaç inç","ekran kaç cm","inç"],
+            "responses": ["Ekran boyutu, monitörün herhangi bir köşesi ile çaprazında bulunan diğer köşesi arasındaki mesafedir. Ekran boyutu genellikle inç cinsinden ifade edilir."],
+            "context": [""]
+        },
+        {
+            "tag": "cozunurluk",
+            "patterns": ["çözünürlük","ekran çözünürlüğü"],
+            "responses": ["Resimleri yansıtmak için ekran üzerinde piksel adı verilen noktalar kullanılır. Çözünürlük, görüntünün kaç noktadan yani kaç pikselden oluşacağını belirler. Nokta sayısı arttıkça görüntü kalitesi de artar."],
+            "context": [""]
+        },
+        {
+            "tag": "yenilemehizi",
+            "patterns": ["yenileme hızı","refresh rate"],
+            "responses": ["Ekran yenileme hızı, ekranda bir saniyede oluşturulan görüntü sayısıdır. Düşük tazeleme oranında çalıştırılan ekranda görüntü titreme yapabilir, bu durum kullanıcının gözünü yorabilir.","Ekran yenileme hızı, frekans (f) birimi olan hertz (Hz) türünden ifade edilir. Örneğin 100 Hz değeri, ekranın saniyede 100 görüntü oluşturduğunu (tarandığı) ifade etmektedir. Aynı zamanda 1 görüntü resminin oluşturulması için 10 ms geçtiği anlaşılmaktadır."],
+            "context": [""]
+        },
+        {
+            "tag": "tepkisuresi",
+            "patterns": ["tepki süresi","Response Time"],
+            "responses": ["Tepki süresi, bir pikselin siyahtan beyaza veya grinin bir tonundan diğer tonuna geçiş süresidir. Tepki süresi azaldıkça görüntüde oluşacak gölgelenme sayısı azalır ve görüntü belirginleşir."],
+            "context": [""]
+        },
+        {
+            "tag": "goruntuorani",
+            "patterns": ["Görüntü Oranı","Aspect Ratio"],
+            "responses": ["Ekranın genişlik ve yükseklik değerleri arasındaki oransal ilişkiye görüntü oranı denir. Günümüzde genellikle 16:9 oranına sahip geniş ekran olarak isimlendirilen ekranlar üretilmektedir. "],
+            "context": [""]
+        },
+        {
+            "tag": "olupiksel",
+            "patterns": ["ölü piksel","ölü piksel nedir","ölü piksel nasıl oluşur"],
+            "responses": ["Ekranda görüntüyü oluşturan her piksel, üç alt pikselden [RGB (kırmızı, yeşil, mavi)] oluşur. Ölü piksel, üç alt pikselin kalıcı olarak kapanması sonucu oluşan siyah bir noktadır. Renkleri açıp kapatan transistörlerin bozulması veya imalat kusurları nedeniyle ölü piksel meydana gelebilir."],
+            "context": [""]
+        },
+        {
+            "tag": "sikismispiksel",
+            "patterns": ["sıkışmış piksel","sıkışmış piksel nedir","sıkışmış piksel nasıl oluşur"],
+            "responses": ["piksel üzerinde görüntüyü oluşturan üç renkten biri veya daha fazlası açık kalırsa piksel rengi akan ekran görüntüsüyle birlikte değişmez. Piksel renginin sabit kalması olayına sıkışmış piksel adı verilir."],
+            "context": [""]
+        },
+        {
+            "tag": "monitorcesitleri",
+            "patterns": ["monitör çeşitleri","ekran çeşitleri","monitör türleri","ekran türleri"],
+            "responses": ["Monitör ekranları genelde görüntüleme (aydınlatma) teknolojilerine göre çeşitlendirilir. Görüntüleme teknolojilerine göre monitörler; Katot Işınlı Tüp (CRT), Sıvı Kristal Ekran (LCD), Plazma, Işık Yayan Diyot (LED), Organik Işık Yayan Diyot (OLED) olmak üzere beşe ayrılır. Günümüzde üretilen monitör ve televizyonlarda LCD, LED ve OLED ekranlar kullanılmaktadır."],
+            "context": [""]
+        },
+        {
+            "tag": "crtekran",
+            "patterns": ["crt","crt ekran","crt ekran nedir","tüplü ekran","crt manitör","crt manitör nedir","tüplü manitör","Katot Işınlı","Katot Işınlı ekran","Katot Işınlı monitör"],
+            "responses": ["Monitör kasası içinde bulunan tüp nedeniyle geniş ve derindir. Bu monitörler koni şeklinde bir ekrana sahiptir. Koninin sivri ucunda elektron tabancası ve katot filamanı (ince, iletken tel) bulunur. Ekranın ön yüzeyi ise fosfor tabakasıyla kaplıdır. Tüp, içerisinde hava bulunmayacak şekilde vakumlanmıştır."],
+            "context": [""]
+        },
+        {
+            "tag": "lcdekran",
+            "patterns": ["lcd","lcd ekran","lcd monitör","sıvı kristalli ekran","sıvı kristalli monitör"],
+            "responses": ["Sıvı kristal ekran (LCD) teknolojisi elli yıla yakın bir süredir kullanılmakla birlikte son 30 senedir daha yaygın bir kullanıma sahiptir. LCD, birçok katmanın bir araya gelmesinden oluşmuştur. Bu ekranlar kendiliğinden ışık üretmez. Bu nedenle ekran panelini aydınlatmak için bir ışık kaynağına (lamba) ihtiyaç duyar."],
+            "context": [""]
+        },
+        {
+            "tag": "plazmaekran",
+            "patterns": ["plazma ekran","plazma monitör"],
+            "responses": ["Plazma ekranlar katot ışınlı tüplü ekran gibi görüntüyü doğrudan ekran hücrelerinden yayar. Ayrı bir ışık kaynağına ihtiyacı yoktur."],
+            "context": [""]
+        },
+        {
+            "tag": "ledekran",
+            "patterns": ["led","led ekran","led monitör","lcd ile led farkı","lcd ve led farkı"],
+            "responses": ["Işık yayan diyot (LED) ekranlar, aslında LCD ile aynı teknolojiye sahiptir. Görüntü sinyalini ileten elektronik ekipmanları aynıdır. Aradaki fark, arka aydınlatmada bir dizi ışık yayan diyot kullanılmasıdır. Ekrandaki görüntüyü oluşturan her bir piksel için ışık, bu LED’ler aracılığıyla gönderilir. Bu nedenle de daha net ve aydınlık bir görüntü sunmaktadır"],
+            "context": [""]
+        },
+        {
+            "tag": "oledekran",
+            "patterns": ["oled","oled ekran","oled monitör","led ile oled farkı","led ve oled farkı"],
+            "responses": ["Organik ışık yayan diyot ekranlar, plazma ve katot ışınlı tüplü ekranlar gibi görüntüyü doğrudan ekran hücrelerinden yayar. Ayrı bir aydınlatma kullanmaz. OLED ekranların ana bileşeni, elektrik uygulandığında ışık yayan organik (karbon bazlı) bir malzeme olan organik ışık yayan diyottur"],
+            "context": [""]
+        },
+        {
+            "tag": "usbc",
+            "patterns": ["usbc","usb c","usb-c","type c","tip c"],
+            "responses": ["USB-C (USB Type-C); diğer USB bağlantı arabirimlerine göre çift yönde bağlanabilen, ters takma sorunu olmayan, mini-mikro konnektör yerine tek bir konnektör tipine sahip gerçek anlamda evrensel bağlantı türü olabilecek bir yapıda üretilmiştir. USB-C arabirimi üzerinden 40 Gb/sn.ye kadar veri; 5 V, 20 A (100 W) kadar güç iletimi gerçekleştirilebilir."],
+            "context": [""]
+        },
+        {
+            "tag": "hdmi",
+            "patterns": ["hdmi","hdmi nedir","hdmi ne işe yarar"],
+            "responses": ["HDMI (high definition multimedia interface), yüksek çözünürlüklü çoklu ortam arayüzü anlamına gelir. Ses ve görüntü verilerini sıkıştırmadan dijital olarak aktarmak için geliştirilmiştir. HDMI son sürümü 2.1’dir. 2.1 sürümünde video verilerini sıkıştırma özelliği de bulunmaktadır. HDMI 2.1 arabirimi üzerinden 48 Gb/sn.’ye kadar veri aktarımı gerçekleştirilebilir."],
+            "context": [""]
+        },
+        {
+            "tag": "displayport",
+            "patterns": ["Display Port","Display Port nedir","Display Port özellikleri"],
+            "responses": ["Görüntü ve sesi beraber ya da ayrı ayrı taşımak için tasarlanan ve ilk olarak 2006 yılında üretilen bir dijital arabirimdir. Biçimsel olarak HDMI arabirimi ile benzerlik gösterir. Bu nedenle karıştırılabilir. 2.0 versiyonu ile birlikte 16K ekranlar ve ötesi için bant genişliği desteği içerir. Display port 2.0 arabirimi üzerinden 80 Gb/sn.ye kadar veri aktarımı gerçekleştirilebilir."],
+            "context": [""]
+        },
+        {
+            "tag": "dvi",
+            "patterns": ["dvi","dvı","dvi portu","dvi nedir","dijital görsel arabirim","digital visual interface"],
+            "responses": ["DVI [digital visual interface (dijital görsel arabirim)] dijital video içeriğini aktarma amacıyla kullanılan bir arabirimdir. Bu arabirim dijital endüstri standardı oluşturmak amacıyla geliştirilmiştir."],
+            "context": [""]
+        },
+        {
+            "tag": "vga",
+            "patterns": ["vga","dvı","[video graphics array","vga portu","vga girişi","video grafikleri dizisi"],
+            "responses": ["VGA [video graphics array (video grafikleri dizisi)] arabirimi 1987 yılında geliştirilmiş, analog sinyalleri kullanan standart bir bağlantı türüdür. VGA arabirimlerinde veri iletimi için üç satır 15 uçtan oluşur."],
+            "context": [""]
+        },
+        {
+            "tag": "projeksiyon",
+            "patterns": ["projeksiyon","projektör","projeksiyon cihazı","yansıtıcı","tepe göz"],
+            "responses": ["Projeksiyon cihazı, görüntüyü duvar veya perde gibi geniş bir yüzeye yansıtan çıkış aygıtıdır. Genelde bir gruba video ya da görüntü göstermek amacıyla kullanılır. Ancak günümüzde projeksiyon cihazları ev sinema sistemleri gibi birçok amaç için kullanılmaktadır."],
+            "context": [""]
+        },
+        {
+            "tag": "projeksiyonlambası",
+            "patterns": ["projeksiyon lambası","projektör lambası","projeksiyon cihazı lambası","yansıtıcı lambası","projeksiyon ampülü","projektör ampülü","projeksiyon cihazı ampülü","yansıtıcı ampülü"],
+            "responses": ["Projektör lambası, ekrana görüntünün yansımasını sağlayan bir ışık kaynağıdır"],
+            "context": [""]
+        },
+        {
+            "tag": "lambaomru",
+            "patterns": ["lamba ömrü","lamba süresi","ampül ömrü","ampül süresi"],
+            "responses": ["Projeksiyonların lamba ışık gücü zaman içerisinde azalır. Bu azalma, aydınlatma türüne bağlı olarak lamba ömrünün yarısından itibaren başlar. Projeksiyon hava filtrelerinin belli aralıklarla temizlenmesi, projeksiyonun tozsuz bir ortamda çalıştırılması gibi hususlar da lamba ömrünü etkilemektedir."],
+            "context": [""]
+        },
+        {
+            "tag": "parlaklik",
+            "patterns": ["parlaklık","lamba parlaklığı","ampül parlaklığı","ansi","ansi lümen","ANSI"],
+            "responses": ["Projeksiyon lambasının ışık güç birimi ANSI lümendir. Projeksiyon cihazının ANSI lümen değeri arttıkça görüntü gücü artar ve görüntü daha parlak hâle gelir. Bu durum, görüntünün aydınlık ortamlardaki performansını iyileştirir. Günümüzde 40 ila 75.000 ANSI lümen arasında ışık şiddetine sahip projeksiyon cihazları bulunmaktadır."],
+            "context": [""]
+        },
+        {
+            "tag": "kontrast",
+            "patterns": ["kontrast","kontrast oranı"],
+            "responses": ["Kontrast oranı, tamamen beyaz bir görüntüden ve tamamen siyah bir görüntüden yansıyan ışığın oranıdır. Kontrast, renklerin ince tonlarını görmemizi mümkün kılar. Kontrast oranı büyüdükçe yansıtılan görüntüdeki ayrıntılar daha iyi görülebilir."],
+            "context": [""]
+        },
+        {
+            "tag": "projeksiyoncesitleri",
+            "patterns": ["projeksiyon çeşitleri","projeksiyon türleri","projeksiyon teknolojisi","crt projeksiyon","lcd projeksiyon","dlp projeksiyon"],
+            "responses": ["Projeksiyonlar, genelde görüntüleme (yüzeye yansıtma) teknolojilerine göre çeşitlendirilir. Görüntüleme teknolojilerine göre projeksiyonlar; Katot Işınlı Tüp [CRT (cathode ray tube)], Sıvı Kristal Ekran [LCD (liquid crystal display)], Sayısal Işık İşleme [DLP (digital light processing)] olmak üzere üçe ayrılır. Günümüzde LCD ve DLP projeksiyonlar kullanılmaktadır."],
+            "context": [""]
+        },
+        {
+            "tag": "videoin",
+            "patterns": ["video in","VIDEO IN"],
+            "responses": ["Kamera gibi aygıtların bağlandığı analog görüntü sinyali girişidir."],
+            "context": [""]
+        },
+        {
+            "tag": "akilliprojeksiyon",
+            "patterns": ["akıllı projeksiyon","akıllı projektör","akıllı yansıtıcı"],
+            "responses": ["Bluetooth arabirimine sahip, Bluetooth üzerinden klavye, fare veya kulaklık bağlantılarına izin veren, üzerinde mobil işletim sistemi bulunan akıllı projeksiyon cihazları da üretilmektedir"],
+            "context": [""]
+        },
+        {
+            "tag": "yazici",
+            "patterns": ["yazıcı","yazıcılar","printer"],
+            "responses": ["Bluetooth arabirimine sahip, Bluetooth üzerinden klavye, fare veya kulaklık bağlantılarına izin veren, üzerinde mobil işletim sistemi bulunan akıllı projeksiyon cihazları da üretilmektedir."],
+            "context": [""]
+        },
+        {
+            "tag": "baskihizi",
+            "patterns": ["baskı hızı","ppm","page per minute","dakikada yazdırılan sayfa","yazıcı hızı"],
+            "responses": ["Yazıcılarda baskı hızı birimi PPM’dir (page per minute). PPM, dakikada yazdırılan sayfa sayısı anlamına gelir."],
+            "context": [""]
+        },
+        {
+            "tag": "kagitboyutu",
+            "patterns": ["kağıt boyutu","kağıt türü","a4","a3","a5"],
+            "responses": ["Kağıt boyutu, yazıcıdan baskı alınabilecek kâğıt ve zarf boyutu seçeneklerini ifade eder. Yazıcıdan baskı alınabilecek en büyük kâğıt ebadı yazıcının boyutunu belirler (A4: 210 mm × 297 mm gibi)."],
+            "context": [""]
+        },
+        {
+            "tag": "yazicicipi",
+            "patterns": ["yazıcı çipi","çipli yazıcı"],
+            "responses": ["Akıllı yonga olarak da adlandırılan çipler, yazıcı sarf (tüketim) malzemesi olan toner veya kartuş düzeylerini izlemek için kullanılır. Çipler sarf malzeme üzerine yerleştirilmiştir. Yazdırılan kâğıt sayısı ve yazdırma özellikleri çiplerde saklanabilir."],
+            "context": [""]
+        },
+        {
+            "tag": "tonermurekkebtanki",
+            "patterns": ["toner tankı","mürekkep tankı","tanklı yazıcı"],
+            "responses": ["Üretici firmalar, özellikle sarf malzemelerin maliyetini düşürmek amacıyla üzerinde tank şeklinde depo sistemi bulunan yazıcılar üretmektedirler"],
+            "context": [""]
+        },
+        {
+            "tag": "yazicicesitleri",
+            "patterns": ["yazıcı çeşitleri","yazıcı türleri","kaç şeşit yazıcı var"],
+            "responses": ["Nokta Vuruşlu (Dot Matrix) Yazıcılar, Mürekkep Püskürtmeli (Ink Jet) Yazıcılar, Lazer Yazıcılar, LED Yazıcılar, 3D (Üç Boyutlu) Yazıcılar olmak üzere temelde 5 çeşit yazıcı bulunmaktadır."],
+            "context": [""]
+        },
+        {
+            "tag": "noktavurusluyazici",
+            "patterns": ["Nokta Vuruşlu Yazıcı","Dot Matrix","Dot Matrix yazıcı"],
+            "responses": ["Nokta Vuruşlu (Dot Matrix) Yazıcılar; yazma işlemi, mekanik olarak mürekkepli bir şeride yazma kafasının vurması ile (daktilo gibi) gerçekleşir. Yazılar diğer yazıcı tiplerine göre daha büyük noktalardan oluşur. Sesli çalışır ve aynı anda karbon kâğıdı kullanılarak birden fazla sayfayı yazabilir."],
+            "context": [""]
+        },
+        {
+            "tag": "murekkeppuskurtmeliyazıcı",
+            "patterns": ["mürekkep püskürtmeli yazıcı","ink jet yazıcı","ink jet printer", "mürekkep püskürtmeli","ink jet","inkjet", "kartuşlu yazıcı"],
+            "responses": ["Mürekkep Püskürtmeli (Ink Jet) Yazıcılar; Mürekkebin kâğıt üzerine püskürtülmesi esasına dayalı olarak çalışan yazıcılardır. Mürekkep püskürtmeli yazıcıların sarf malzemesine kartuş denir. Yazıcı kafası, üzerinde siyah ve renkli mürekkep kartuşlarını taşır."],
+            "context": [""]
+        },
+        {
+            "tag": "lazeryazici",
+            "patterns": ["Lazer Yazıcı","Tonerli yazıcı","laser printer"],
+            "responses": ["Lazer yazıcılar, yazım işleminde toner denilen sarf malzemeyi kullanır. Lazer yazıcılar, çok hızlı ve fazla miktarda baskı yapmaya imkân verir."],
+            "context": [""]
+        },
+        {
+            "tag": "ledyazici",
+            "patterns": ["led yazıcı","led yazıcılar","led printer"],
+            "responses": ["LED yazıcıların çalışma sistemi lazer yazıcılarla benzerdir. Her ikisinde de toner ünitesi bulunur ve her ikisi de toneri eritmek suretiyle yazdırma işlemini gerçekleştirir. Lazer yazıcılar, tambur boyunca ileri geri hareket eden bir lazer ışını kullanırken LED yazıcılar tüm hattı bir kerede yanıp sönen bir dizi LED kullanır."],
+            "context": [""]
+        },
+        {
+            "tag": "3dyazici",
+            "patterns": ["3D yazıcı","3d printer","üç boyutlu yazıcı","3 boyutlu yazıcı"],
+            "responses": ["1984 yılında geliştirilen 3D yazıcı teknolojisi, hızlı ve düşük maliyetli örnek model oluşturmak için geliştirilmiştir. 3D yazıcılar, farklı baskı teknolojilerini kullanır. Bu teknolojiler SLA, DLP, SLS, FDM olarak sıralanabilir. FDM [fused deposition modeling (eriyik yığma modelleme)], cihaz ve baskı maliyeti açısından en çok tercih edilen baskı teknolojisidir."],
+            "context": [""]
+        },
+        {
+            "tag": "yazicibagalntiarabirimleri",
+            "patterns": ["yazıcı bağlantı arabirimleri","yazıcı bağlantı portları","yazıcı bağlantı kabloları","yazıcı bağlama","kablolu yazıcı"],
+            "responses": ["Bağlantı arabirimleri kablolu veya kablosuz bağlantıya göre farklılık gösterebilir. Günümüz yazıcıları: seri, paralel, USB, firewire, lan ve Wi-Fi bağlantı arabirimlerini kullanır."],
+            "context": [""]
+        },
+        {
+            "tag": "seriport",
+            "patterns": ["seri port","seri bağlantı","com","comm"],
+            "responses": ["Seri port, PC’de bulunan her bir COM ya da iletişim (comm) portu olarak adlandırılan bir asenkron porttur. Seri bağlantılar 25 veya 9 pinli D-Sub bağlantı noktası ve bir kerede bir veri biti ileten tek telli bir kablo kullanır. Kablo uzunluğu 15-30 metre arasında olabilir. Günümüzde bu arabirim kullanılmamaktadır."],
+            "context": [""]
+        },
+        {
+            "tag": "paralelport",
+            "patterns": ["paralel port","paralel bağlantı"],
+            "responses": ["Paralel port aynı anda birden fazla bitin alınıp gönderilmesi olarak ifade edilebilir. Yani bir cihazda paralel port varsa bu port vasıtasıyla 8 bitlik veri aynı anda gönderilip alınabilir. Kablo uzunlukları 3-4,5 metre arasında olabilir. Günümüzde bu arabirim bazı nokta vuruşlu yazıcılar haricinde kullanılmamaktadır."],
+            "context": [""]
+        },
+        {
+            "tag": "firewire",
+            "patterns": ["firewire","i.Link","IE1394"],
+            "responses": ["Firewire, i.Link ve IE1394 olarak da bilinir. USB’ye oldukça benzeyen bir bağlantı birimidir. Özellikle kamera, DVD / Blu-ray oynatıcı, ses kartı, ses cihazları gibi çoklu ortam aygıtlarını birbirine bağlamak ve hızlı veri alışverişi sağlamak için geliştirilmiştir."],
+            "context": [""]
+        },
+        {
+            "tag": "kablosuzyazici",
+            "patterns": ["kablosuz yazıcı","wifi yazıcı","wi-fi yazıcı","bluetoot yazıcı", "nfc yazıcı"],
+            "responses": ["Yazıcılarda kablosuz bağlantı için Wi-Fi, Bluetooth, kişiselYazıcılarda kablosuz bağlantı için Wi-Fi, Bluetooth, kişisel alan ağı (PAN), yakın alan iletişimi (NFC) ve bulut baskı çözümleri kullanılmaktadır. Günümüzde üretilen yazıcıların çoğunda yerleşik menü sistemi bulunur. Bu sistem üzerinde yapılan seçimler ile yazıcı, bir kablosuz ağa kolaylıkla dâhil edilir."],
+            "context": [""]
+        },
+        {
+            "tag": "tarayici",
+            "patterns": ["tarayıcı","scanner","tarayıcı çeşitleri","tarayıcı türleri","scanner çeşitleri","scanner türleri"],
+            "responses": ["Tarayıcılar; kitap, dergi, gazete, fotoğraf, kartvizit gibi çeşitli basılı dokümanlarda bulunan renkli veya siyah beyaz yazıları, resimleri bilgisayar ortamına aktaran aygıtlardır. En çok kullanılan tarayıcı çeşitleri şunlardır: Düz Yataklı (Flatbed), Taşınabilir (Portable), Yaprak Beslemeli (Sheetfed), Çok Fonksiyonlu Yazıcı, Elle Tutulan (Handheld), Tambur (Drum) Tarayıcılar."],
+            "context": [""]
+        },
+        {
+            "tag": "tasinabilir",
+            "patterns": ["Taşınabilir Tarayıcı","Portable Tarayıcı","Portable Scanner", "Taşınabilir scanner"],
+            "responses": ["Hafif ve küçüktür. Genellikle satış temsilcisi, avukatlık gibi meslek sahiplerinin tercih ettiği bir tarayıcı türüdür."],
+            "context": [""]
+        },
+        {
+            "tag": "yaprakbeslemeli",
+            "patterns": ["Yaprak Beslemeli Tarayıcı","Sheetfed Tarayıcı","Sheetfed Scanner", "Yaprak Beslemeli scanner"],
+            "responses": ["Tarayıcı silindiri, kâğıdı tarayıcının içerisine çeker. Tarayıcı kafası sabittir. Kâğıt geçişi sırasında kafa, tarama işlemini gerçekleştirir. Genellikle banka şubeleri, nüfus müdürlükleri gibi yerlerde tercih edilir"],
+            "context": [""]
+        },
+        {
+            "tag": "cokfonksiyonlutarayici",
+            "patterns": ["Çok Fonksiyonlu Tarayıcı","All in One Tarayıcı","All in One Scanner", "Çok Fonksiyonlu scanner"],
+            "responses": ["Günümüzde en çok kullanılan tarayıcılardan biridir. Tarama, yazdırma, kopyalama ve faks gönderme özelliklerine sahip tarayıcılardır. Bu tarayıcılar, “çok fonksiyonlu yazıcı” adıyla da bilinir."],
+            "context": [""]
+        },
+        {
+            "tag": "tamburtarayici",
+            "patterns": ["Tambur Tarayıcı","Drum Tarayıcı","Drum Scanner", "Tambur scanner"],
+            "responses": ["Daha çok ayrıntının elde edilmesi gereken gazete, dergi, broşür gibi yayınların taranmasında kullanılır. “Foto çoğaltıcı tüp (photomultiplier tube)” denilen bir teknolojiye sahip tarayıcılardır."],
+            "context": [""]
+        },
+        {
+            "tag": "duzyataklitarayici",
+            "patterns": ["Düz Yataklı Tarayıcı","Flatbed Tarayıcı","Flatbed Scanner", "Düz Yataklı scanner"],
+            "responses": ["Taranan dokümanın sabit bir yatak üzerine yerleştirildiği ve taşıyıcı düzenek yardımıyla okuma kafasının hareket ettirildiği tarayıcı türüdür."],
+            "context": [""]
+        },
+        {
+            "tag": "renkderinligi",
+            "patterns": ["renk derinliği"],
+            "responses": ["Renk derinliği, tarayıcı tarafından algılanan (beyaz ve siyah arasında) renk sayısıdır. Tarama işlemi sırasında kullanılan ADC’nin veri biti arttıkça renk derinliğinin de arttığı görülmektedir. "],
+            "context": [""]
+        },
+        {
+            "tag": "tarayicialgilayicituru",
+            "patterns": ["algılayıcı türü"],
+            "responses": ["Tarayıcılarda optik algılayıcı olarak CCD [charge coupled device (şarj eşleştirmeli cihaz)] veya CIS [CMOS image sensor (CMOS görüntü algılayıcı)] yongası kullanılır. Kullanılan algılayıcıya göre tarayıcı bileşenleri değişir."],
+            "context": [""]
+        },
+        {
+            "tag": "ocr",
+            "patterns": ["ocr","optik karakter tanıma","ocd tarayıcı"],
+            "responses": ["OCR; taranan bir doküman içerisindeki harf, sayı, simge gibi karakterleri bulup tanıyarak metne çeviren dijital bir görüntü işleme teknolojisidir. OCR teknolojisi, orijinal olarak basılı metni tanımak için tasarlanmış olsa da el yazısı ile yazılan metinleri tanıyıp doğrulamak için de kullanılabilir."],
+            "context": [""]
+        },
+        {
+            "tag": "tarayicibaglanti",
+            "patterns": ["tarayıcı bağlantı arabirimleri","tarayıcı bağlantı türleri","tarayıcı bağlantı kabloları"],
+            "responses": ["Tarayıcıların bağlantı arabirimi, verilerin tarandıktan sonra bilgisayara gönderilme biçimini belirler. Günümüz tarayıcılarında USB, Firewire, LAN (kablolu) ile Bluetooth, NFC, Wi-Fi (kablosuz) bağlantı arabirimleri kullanılmaktadır."],
+            "context": [""]
+        },
+        {
+            "tag": "digitalfoto",
+            "patterns": ["dijital fotoğraf","dijital fotoğraf makinesi","fotoğraf makinesi"],
+            "responses": ["Dijital fotoğraf makineleri, gelen ışınları algılayıcılar üzerine düşürerek kaydedebilir. Görüntüyü oluşturmada kullanılan diğer kısımlar (optik düzenek, vizör, diyafram gibi) aynıdır."],
+            "context": [""]
+        },
+        {
+            "tag": "zoom",
+            "patterns": ["zoom","büyütme","optik zoom","dijital zoom","interpolasyon"],
+            "responses": ["Büyütme (yakınlaşma) özelliği optik ve dijital olmak üzere iki çeşittir. Optik yakınlaştırma mercek ile yapılan gerçek yakınlaştırmadır.Kalite kaybına neden olur. Dolayısıyla bir fotoğraf makinesi alırken optik büyütme değerinin yüksek olması önemlidir. Dijital yakınlaştırmanın diğer adı interpolasyondur"],
+            "context": [""]
+        },
+        {
+            "tag": "diyafram",
+            "patterns": ["diyafram"],
+            "responses": ["Objektiften içeri giren ışığın miktarını ayarlayan kısımdır. Diyafram; ışık yoğunluğunun fazla olması durumunda kısılır, az olması durumunda da açılarak genişler. Kullanıcının gündüz veya gece, güneşli ya da kapalı havalarda en ideal fotoğrafı çekmesine imkân tanır."],
+            "context": [""]
+        },
+        {
+            "tag": "obtüratör",
+            "patterns": ["obtüratör","RFID","RFID"],
+            "responses": ["Fotoğraf makinelerinde bulunan obtüratör adlı donanım aracılığıyla makineye objektiften giren ışığın süresi ayarlanır. Tıpkı bir göz kapağı gibi açılıp kapanan bir perde sisteminden oluşmaktadır. Perde hızı yüksekse hareket dondurulur, düşükse hareket bulanık çıkar."],
+            "context": [""]
+        },
+        {
+            "tag": "isohassasiyeti",
+            "patterns": ["iso hassasiyeti","iso kavramı"],
+            "responses": ["ISO kavramı, fotoğraf makinelerinde algılayıcı yüzeyin birim ışık miktarı karşısında verdiği elektriksel tepkiyi ifade etmektedir. Örneğin güneşli bir havada düşük ISO değeri kullanılması gerekirken az ışıklı bir ortamda yüksek ISO değeri kullanmak gerekmektedir."],
+            "context": [""]
+        },
+        {
+            "tag": "vizor",
+            "patterns": ["vizor","bakaç", "vizör"],
+            "responses": ["Fotoğrafı çekmeden önce çerçeve içerisine girecek alanın gözlendiği ufak pencere alanıdır. Günümüz dijital makinelerinde sıklıkla LCD ekranlar bu işi üstlenmiştir."],
+            "context": [""]
+        },
+        {
+            "tag": "deklansor",
+            "patterns": ["deklanşör"],
+            "responses": ["Çoğunlukla fotoğraf makinelerinin üzerinde yer alan düğmelerdir. Temel görevi fotoğraf çekmek olan bu düğmelerin farklı görevleri de vardır. Yarım basıldığında otomatik netleme sistemini çalıştırır ve konuyu netler, aynı anda ortam ışığının ölçümünü de yapar."],
+            "context": [""]
+        },
+        {
+            "tag": "fotoflash",
+            "patterns": ["Flaş","fotoğraf mainesi flaşı","flaşlı makine"],
+            "responses": ["Aydınlatmanın yetersiz olduğu koşullarda konuyu aydınlatarak nesneleri görünür kılar. Makinelerin üzerinde gelen flaşlar, ortalama olarak 5-10 metre gibi bir aralığı görünür kılabilir."],
+            "context": [""]
+        },
+        {
+            "tag": "fotomakinecesitleri",
+            "patterns": ["fotoğraf makinesi çeşitleri","fotoğraf makinesi türleri"],
+            "responses": ["Dijital fotoğraf makinelerini sınıflandırmanın en bilinen yolu, makine boyutları ile yapılmaktadır. Boyutlarına göre çeşitlilik gösteren fotoğraf makineleri, farklı amaçlara ve kullanıcı profillerine hizmet edecek şekilde tasarlanmıştır. Bunlar Kompakt, DSLR, Aynasız, Orta Format makinelerdir."],
+            "context": [""]
+        },
+        {
+            "tag": "kompaktmakine",
+            "patterns": ["Kompakt Makine","Kompakt Fotoğraf Makinesi","fotoğraf makinesi kompakt"],
+            "responses": ["Ufak, cebe sığacak kadar küçük olan fotoğraf makineleridir. Bu türlere “bas-çek” de denilmektedir. Hiçbir fotoğraf bilgisi olmayanların bile kullanabileceği kadar basittir. Çoğunlukla aç-kapa ve deklanşör dışında düğme bulunmaz. Tamamen otomatik makinelerdir. Günlük kullanım için üretilmiştir. Bu tür makineler en ekonomik olanlarıdır."],
+            "context": [""]
+        },
+        {
+            "tag": "DSLRMakine",
+            "patterns": ["DSLR","DSLR Makine","DSLR Makineler", "DSLR Fotoğraf Makinesi"],
+            "responses": ["Profesyonel bağlantı olanaklarının yanı sıra görüntü kalitesi bakımından da ileri seviyedir. Bu makine türünün en önemli özelliklerinden biri, objektiflerinin değiştirilebilir olmasıdır. Bu makineleri kullanabilmek için temel fotoğraf bilgisine sahip olunmalıdır."],
+            "context": [""]
+        },
+        {
+            "tag": "aynasizmakine",
+            "patterns": ["aynasız makine","aynasız fotoğraf makinesi","fotoğraf makinesi aynasız"],
+            "responses": ["DSLR makinelerde bulunan ayna mekanizması, bu makinelerde kaldırıldığı için aynasız diye adlandırılmıştır. Algılayıcı sisteminde oluşturulan görüntü elektronik olarak vizöre aktarılır. Bu makineler kompakt görünüme sahip olmalarının yanında özellikleri bakımından profesyonel nitelikler barındırır."],
+            "context": [""]
+        },
+        {
+            "tag": "ortaformatmakine",
+            "patterns": ["orta format makine","orta format fotoğraf makinesi","fotoğraf mainesi orta format","orta format"],
+            "responses": ["DSLR türlerinden daha büyük olan bu makineler, profesyonel kullanıcılar tarafından tercih edilmekte olup çoğunlukla stüdyo kullanımına uygun tasarlanmaktadır. Çok yüksek görüntü çözünürlüklerine ulaşmak mümkündür."],
+            "context": [""]
+        },
+        {
+            "tag": "webcam",
+            "patterns": ["webcam","web cam","ağ kamerası","usb kamera"],
+            "responses": ["Ağ kameraları (USB kameralar, webcam), fotoğraf ve görüntü aktarımı için kullanılan donanım aygıtlarıdır. İnternet altyapısı üzerinden ses ve görüntü aktarımı yapabilir. Birçok üretici, ses aktarımı için ağ kameraları üzerine tümleşik mikrofon yerleştirmiştir. Ağ kameraları USB, LAN veya Wi-Fi bağlantılarına sahip olabilir. Genellikle bilgisayara USB arabirim üzerinden bağlanır."],
+            "context": [""]
+        },
+        {
+            "tag": "hafizakarti",
+            "patterns": ["hafıza kartı","hafıza kartları","hafıza kartı nerede kullanılır"],
+            "responses": ["Hafıza kartları; verileri kalıcı olarak depolayan, kullanımı kolay ve taşınabilir hafıza birimleridir. Cep telefonu, bilgisayar, dijital fotoğraf makinesi, dijital video kamera gibi birçok cihazda kullanılır."],
+            "context": [""]
+        },
+        {
+            "tag": "hafizakartikapasite",
+            "patterns": ["hafıza kartı kapasitesi","hafıza kartı boyutu","hafıza kartı bayt"],
+            "responses": ["Hafıza kartının depolayacağı veri miktarı açısından önemlidir. Birimi GB cinsindendir. Büyük olması, depolanacak verilerin büyüklüğünü gösterir."],
+            "context": [""]
+        },
+        {
+            "tag": "hafizakartiokumayazmahizi",
+            "patterns": ["okuma yazma hızı","hafıza kartı okuma yazma hızı","read write"],
+            "responses": ["Okuma-yazma hızı hafıza kart performansını belirten en önemli kriterdir. Kameralarda gerçek zamanlı kaliteli görüntüleri kaydetme ve fotoğraf makinelerinde yüksek çözünürlükte ardışık fotoğraf çekme gibi durumlarda hafıza kartının hızı, performansı doğrudan etkilemektedir."],
+            "context": [""]
+        },
+        {
+            "tag": "hafizakartiguvenlik",
+            "patterns": ["hafıza kartı güvenliği","hafıza kartı güvenlik"],
+            "responses": ["Verilerin yazmaya, silmeye ve okunmaya (kopyalama) karşı korumaya sahip olması kişisel verilerin gizliliği açısından önemlidir. Bu gizliliğin başka kullanıcılar tarafından ihlal edilmesini veya dosyaların yanlışlıkla kaybolmasını önlemek için hafıza kartlarında donanım şifreleme yongası veya DRM (dijital haklar yönetimi) yazılımı kullanılır. DRM; kullanıcının hafıza kartında depolanan dosyaları kopyalama, ağ aktarımı, yazdırma veya ekran yakalama hakkını kontrol eden bir teknolojidir."],
+            "context": [""]
+        },
+        {
+            "tag": "hafizakarticesitleri",
+            "patterns": ["hafıza kartı çeşitleri","hafıza kartı türleri"],
+            "responses": ["Cep telefonları, bilgisayarlar, dijital fotoğraf makinesi, dijital video kamera gibi cihazlarda çeşitli hafıza kartları kullanılmaktadır. Bunlardan en yaygınları: SD, CF, Memory Stick, CFexpress."],
+            "context": [""]
+        },
+        {
+            "tag": "SDKart",
+            "patterns": ["SD kart","micro sd","mikro sd","microsd","mikrosd","sd card","sd hafıza kartı","Secure digital card","güvenli dijital hafıza kartı"],
+            "responses": ["Secure digital (dijital güvenlik) olarak da bilinen hafıza kartı, en çok kullanılan hafıza kartı türüdür. SDHC ve SDXC gibi yüksek kapasiteli türleri mevcuttur. Akıllı telefonların yaygınlaşması ile microSD adı verilen oldukça ufak hafıza kartına gereksinim de ortaya çıkmıştır."],
+            "context": [""]
+        },
+        {
+            "tag": "CFKart",
+            "patterns": ["CF kart","cf card","cf hafıza kartı","compact flash card","kompakt flaş hafıza kartı"],
+            "responses": ["CF kart, compact flash (kompakt flaş) olarak da bilinen hafıza kartı türü görülmektedir. CF kartlarla ilgili en büyük sorun, hafıza kartı okuyucularında bükülmeye eğilimli büyük boyutları ve pimleridir. Cfast gibi farklı ve daha hızlı çeşitlerinin üretilmesi nedeniyle günümüzde yarı ve tam profesyonel kameralarda tercih edilmemektedir"],
+            "context": [""]
+        },
+        {
+            "tag": "MemoryStickKart",
+            "patterns": ["Memory Stick Kart", "Memory Stick hafıza Kartı"],
+            "responses": ["Markaya özgü bir tasarıma sahip olan memory stick kartı görülmektedir. Bu hafıza kartları, diğer dijital kamera ve dijital video kamera üreticileri tarafından tercih edilmediği için yaygınlaşmamıştır. Hâlen üretici firmanın bazı makinelerinde kullanılmaktadır."],
+            "context": [""]
+        },
+        {
+            "tag": "CFexpressKart",
+            "patterns": ["CFexpress Kart","CFexpress Hafıza Kartı","CFexpress Card","CFexpress"],
+            "responses": ["Günümüzün en hızlı ve en yetenekli hafıza kartı formatıdır ve muhtemelen gelecek nesil fotoğraf ve video kameraları için varsayılan seçim olacaktır. Bunun en büyük nedeni 4 GB sn kadar veri aktarım hızına sahip olmasıdır."],
+            "context": [""]
+        },
+        {
+            "tag": "KartOkuyucu",
+            "patterns": ["Kart Okuyucu","Card Reader"],
+            "responses": ["Kart okuyucular, hafıza kartlarını okumak ve yazmak için kullanılan donanım birimleridir."],
+            "context": [""]
+        },
+        {
+            "tag": "donanim",
+            "patterns": ["donanım","hardware","hardware","bilisayar donanımı", "donanımın açıklaması","donanımın tanımı"],
+            "responses": ["Donanım bilgisayarın elle tutulabilen, gözle görülebilen tüm parçaları olarak adlandırılabilir."],
+            "context": [""]
+        },
+        {
+            "tag": "yazilim",
+            "patterns": ["yazılım","software","soft ware", "yazımın açıklaması","yazılımın tanımı","bilgisayar yazılımı"],
+            "responses": ["Yazılım, kullanıcıların donanım parçalarını nasıl ve ne şekilde kullanacağına olanak sağlayan komutlar dizisidir. Yazılım, sistem ve uygulama yazılımları olarak ikiye ayrılır."],
+            "context": [""]
+        },
+        {
+            "tag": "sistemyazilimi",
+            "patterns": ["sistem yazılımı","işletim sistemi","os"],
+            "responses": ["Bilgisayar donanımına direkt müdahale edebilen, donanım kaynaklarına erişip onların dolayısıyla bilgisayarın çalışmasını sağlayan yazılımlara sistem yazılımları (işletim sistemi) denir."],
+            "context": [""]
+        },
+        {
+            "tag": "osneredevar",
+            "patterns": ["işletim sistemi nerede var","işletim sistemi nerede kullanılıyor","işletim sistemi olan yerler","sistem yazılımı nerede var","sistem yazılımı nerede kullanılıyor","sistem yazılımı olan yerler"],
+            "responses": ["Günümüzde işletim sistemleri sadece bilgisayarlarda değil, video oyun konsolları, cep telefonları ve tabletlerde, arabalarda, beyaz eşyalarda hatta kol saatlerinin içinde bile yüklü olabilmektedir."],
+            "context": [""]
+        },
+        {
+            "tag": "uygulamayazilimi",
+            "patterns": ["uygulama yazılımı","uygulama","app","application","uygulama yazılımları"],
+            "responses": ["Uygulama yazılımları kendi başlarına hiçbir şekilde çalışmayan ancak bir işletim sistemi üzerinde çalışabilen ve kullanıcıların bilgisayar donanımını kullanmalarına imkân veren uygulamalardır. metin düzenleyiciler, elektronik tablolama uygulamaları, internet tarayıcıları, müzik dinleme uygulamaları, resim düzenleme uygulamaları buna örnek verilebilir."],
+            "context": [""]
+        },
+        {
+            "tag": "bios",
+            "patterns": ["bios","BIOS","Temel giriş çıkış sistemi", "basic input output system","bios nedir","biosun tanımı"],
+            "responses": ["Temel giriş çıkış sistemi anlamına gelen BIOS (basic input output system), işletim sistemi ve donanım kaynakları arasındaki bütün bağımsız sürücü kaynaklarını yönetir. Anakart içerisine üretici firma tarafından yerleştirilen yani gömülü olarak gelen bir yazılımdır."],
+            "context": [""]
+        },
+        {
+            "tag": "biosagiris",
+            "patterns": ["biosa nasıl girilir","bios nasıl açılır","bios kısayolu","bios açma tuşu"],
+            "responses": ["BIOS ayar arayüzüne erişebilmek için bilgisayarın güç düğmesine bastıktan sonra klavyedeki (genellikle) F2 veya (nadiren) DEL tuşuna basmak gerekir. Bu tuşlar anakart üreticisine göre zaman zaman farklılık gösterebilir."],
+            "context": [""]
+        },
+        {
+            "tag": "post",
+            "patterns": ["post","post nedir","post nasıl çalışır"],
+            "responses": ["BIOS yazılımının gerçekleştireceği ilk iş POST (power on self test) adı verilen bir dizi test işlemidir. POST, bilgisayarın sağlıklı bir şekilde çalışması için gerekli olan tüm şartların sağlanıp sağlanmadığının test edildiği bir açılış ekranıdır."],
+            "context": [""]
+        },
+        {
+            "tag": "biospili",
+            "patterns": ["bios pili","bios pili nedir","bios pili ne işe yarar","bios pili biterse","cmos","CMOS checksum error"],
+            "responses": ["BIOS içerisindeki tüm ayarlar ve değişiklikler CMOS adı verilen özel bir çip içerisinde tutulur. CMOS’un ihtiyaç duyduğu enerji ise anakart üzerinde yer alan BIOS pili sayesinde sağlanır. Bu pil, yeterli enerjiyi sağlayamaz ya da biterse bilgisayar açılış anında yazılı bir hata mesajı (CMOS checksum error - defaults loaded) verecek ve BIOS üzerindeki bilgileri fabrika ayarına geri döndürecektir."],
+            "context": [""]
+        },
+        {
+            "tag": "uefibios",
+            "patterns": ["klasik bios","uefi bios","UEFI BIOS","bios çeşitleri"],
+            "responses": ["Son zamanlarda UEFI (unified extensible firmware interface) olarak adlandırılan daha modern bir BIOS yazılımı yaygınlaşmaya başlamıştır. Klasik BIOS yazılımı ile temelde aynı işlevleri yerine getiren bu modern BIOS, kullanıcı dostu bir grafik arayüzüne sahiptir. Klasik BIOS sadece klavye tuşları ile kullanılırken UEFI BIOS fare kullanımına olanak sağlar."],
+            "context": [""]
+        },
+        {
+            "tag": "secureboot",
+            "patterns": ["secure boot","güvenli önyükleme"],
+            "responses": ["Güvenli önyükleme (secure boot) olarak adlandırılan özelliği sayesinde dijital olarak imzalanmamış ya da sertifikalandırılmamış yazılımların yüklenmesine izin vermez. Bu sayede rootkit gibi zararlı yazılımlar vasıtasıyla sistemi ele geçirmeye çalışan kötü niyetli kişilere mâni olur."],
+            "context": [""]
+        },
+        {
+            "tag": "cmos",
+            "patterns": ["cmos","cmos nedir","cmos tanımı","cmos ne işe yarar"],
+            "responses": ["BIOS içerisindeki tüm ayarlar ve değişiklikler CMOS adı verilen özel bir çip içerisinde tutulur. Bu çipin özelliği ise sürekli olarak bir elektrik kaynağı tarafından beslenmeye ihtiyaç duymasıdır. Aksi takdirde içerisinde kayıtlı bilgiler silinecektir."],
+            "context": [""]
+        },
+        {
+            "tag": "bioshatasesleri",
+            "patterns": ["bios hata sesleri","bios hata","bios ses","bios uyarı sesleri","bios uyarı","bios bip sesleri","tek bip","iki bip","bios hata mesajları","bios hataları","bios error"],
+            "responses": ["1 kısa bip Normal POST sorun yok. 2 kısa bip POST hata. Hata kodu ekranda gösterilir. 1 uzun, 1 kısa bip Anakartta sorun var. 1 uzun, 2 kısa bip Görüntü adaptöründe sorun var. CMOS Battery Low CMOS pilinin zayıfladığını gösterir. CMOS Checksum Bad CMOS ayarlarının bozulduğunu gösterir. Memory Size Decreased Bellek boyutunun azaldığını gösterir. No Boot Device Available Önyükleme aygıtı bulunamadığını gösterir"],
+            "context": [""]
+        },
+        {
+            "tag": "biosayarlari",
+            "patterns": ["bios ayarı","bios ayarları","bios settings","boot ayarları","açılış ayarları","bilgisayarı flaştan başlatma","bilgisayarı cdden başlatma"],
+            "responses": ["BIOS ayarlarını değiştirebilmek için BIOS arayüzüne ilgili tuş (delete, escape, F2 vb.) ile giriş yapılması gerekir. BIOS’ta bilgisayarın nasıl önyükleme (boot) yapacağına dair ayarlar yapılabilmektedir. Advanced BIOS Features (gelişmiş BIOS özellikleri) başlığına klavyenin ok tuşları kullanılarak ulaşılır ve enter tuşuna basılarak menü içerisine giriş yapılır. BIOS, First Boot Device (ilk açılış aygıtı) seçeneğinin karşısında hangi sürücü seçili ise ilk olarak işletim sistemini orada arayacaktır. Farklı BIOS yazılımlarında Boot Priority Order (ilk açılış öncelik sıralaması) ya da Boot Sequence (ilk açılış sıralaması) gibi farklı menü isimleri kullanılabilir."],
+            "context": [""]
+        },
+        {
+            "tag": "ag",
+            "patterns": ["ağ","ağ sistemleri","network","bilgisayar ağı"],
+            "responses": ["Ağ sistemleri (network), en az iki bilgisayarın kablolu veya kablosuz şekilde iletişim kurduğu donanım ve yazılım kaynaklarının paylaşıldığı sisteme verilen isimdir."],
+            "context": [""]
+        },
+        {
+            "tag": "veriiletimi",
+            "patterns": ["veri iletimi","veri gönderme","veri paylaşma","dijital iletişim","digital iletişim","data iletimi","data gönderme","data paylaşma"],
+            "responses": ["Veri iletimi, bir iletişim ortamı üzerinden dijital veya analog verilerin bir veya daha fazla cihaza iletilmesi için bilgi işlem ve iletişim teknolojilerini kullanma işlemidir. Veri iletimi genellikle dijital veriyi gönderme ve alma işlemleri için kullanılır. Bu nedenle, veri iletimine dijital iletişim de denir."],
+            "context": [""]
+        },
+        {
+            "tag": "protokol",
+            "patterns": ["ptorokol","ağ protokolleri","protokol nedir"],
+            "responses": ["Bir cihaz, veriyi bir veya daha fazla alıcı cihaza aktarmak istediğinde dijital veriler kaynak cihazdan bit akışları şeklinde alıcıya iletilir. Aynı veya farklı üreticilerin ürettikleri dijital aygıtların haberleşebilmesi ve karşılıklı çalışabilmesi için alıcının göndericiden gelen veriyi anlayabilmesi gerekir. Alıcı ve vericinin; kullanılacak işaretler, veri formatları ve iletim yöntemleri konularında anlaşması gerekmektedir. Bu anlaşmalar için düzenlenmiş kurallar dizisine protokol denir."],
+            "context": [""]
+        },
+        {
+            "tag": "veriiletimyontemleri",
+            "patterns": ["Veri İletim Yöntemleri","Veri İletim Yöntemleri nelerdir","Veri İletim çeşitleri"],
+            "responses": ["Veri iletimi seri veya paralel olmak üzere iki temel yöntemde gerçekleşir"],
+            "context": [""]
+        },
+        {
+            "tag": "seriiletim",
+            "patterns": ["seri iletim","seri veri iletim","baud","baud hızı"],
+            "responses": ["Seri iletim, veri göndermek ve almak için bir veya iki iletim hattı kullanılan ve verilerin dizi şeklinde bir seferde bir bit gönderildiği ve alındığı bir iletişim yöntemidir. Bilgiler; 16, 32, 64 bit paketler hâlinde Ağ Temelleri Dış Donanım Birimleri 203 sıralanarak aktarılır. Seri iletişimde bir saniyede iletilen toplam bit sayısına baud hızı denir."],
+            "context": [""]
+        },
+        {
+            "tag": "senkronseriiletim",
+            "patterns": ["Senkron Seri İletim","saat darbesi","clock pulse"],
+            "responses": ["Senkron iletim, alıcı ve vericinin eş zamanlı çalışması anlamına gelir. Bu yöntemde bir saat darbesi (clock pulse) kullanılır. Saat darbesi, veri bitlerinin belirlenen zaman periyotlarında eş zamanlı olarak gönderilmesini sağlar."],
+            "context": [""]
+        },
+        {
+            "tag": "asenkronseriiletim",
+            "patterns": ["asenkron seri iletim"],
+            "responses": ["Asenkron seri iletişimde iki cihaz arasında bir saat paylaşımı yoktur. Seri bilgi rastgele bir zamanda gönderilebilir. Veri gönderilmediği zaman hat boşta kalır. Senkron seri iletişimden daha yavaştır. Her veri grubu ayrı olarak gönderilir. Veri, bir karakter (8 bit) olacak şekilde hatta gönderilir. Karakterin başına başlangıç, sonuna da durdurma biti eklenir."],
+            "context": [""]
+        },
+        {
+            "tag": "paraleliletim",
+            "patterns": ["paralel iletim","paralel veri iletimi","demand"],
+            "responses": ["Birden fazla bit, bir saat darbesi hızında aynı anda birlikte iletilir. Paralel iletimde 8 bit veri hattı vardır. Veri hattının haricinde 1 bit veri hazır (data ready), 1 bit veri istek, 1 bit toprak (GND) olmak üzere 11 tel ile iletişim gerçekleştirilir. Paralel iletim yöntemi seri haberleşmeye göre daha hızlıdır. Bilgisayar ve yazıcı arasındaki iletimde paralel iletim kullanılır."],
+            "context": [""]
+        },
+        {
+            "tag": "agcesitleri",
+            "patterns": ["ağ çeşitleri","ağ çeşitleri nelerdir","ağ türleri"],
+            "responses": ["Bilgisayar ağları; coğrafi yapı, organizasyon şemaları, iletişim protokolleri, bağlantı türleri, bant genişliği gibi kategorilere ayrılır."],
+            "context": [""]
+        },
+        {
+            "tag": "cografiaglar",
+            "patterns": ["Coğrafi Yapıya Göre Bilgisayar Ağları","coğrafi bilgisayar ağları","coğrafi ağlar","coğrafi ağ çeşitleri"],
+            "responses": ["Coğrafi yapıya göre sınıflandırmada maliyet, bant genişliği, iletişim protokolleri, kapsama alanı, kullanım amacı gibi kriterler dikkate alındığında 5 temel ağ türü karşımıza çıkar. Bu ağ türleri; PAN, LAN, CAN, MAN, WAN’dır."],
+            "context": [""]
+        },
+        {
+            "tag": "pan",
+            "patterns": ["pan","han","home area network","ev ağı","personal area network","kişisel alan ağı"],
+            "responses": ["Bir kişisel alan ağı [PAN (personal area network)], kişinin yaşam alanı içerisinde kullandığı ağdır. Ağ; küçük bir ofiste, bir binada veya dairede bulunan tek bir kişi için yapılandırılmıştır. Bu alan genellikle bir dairedir. Bir konutta birden fazla kişi aynı ağı kullanıyorsa bu ağ, ev ağı [HAN (home area network)] olarak adlandırılır."],
+            "context": [""]
+        },
+        {
+            "tag": "lan",
+            "patterns": ["lan","local area network","yerel alan ağı"],
+            "responses": ["1960’lı yıllarda geliştirilmiş olan yerel alan ağı [LAN (local area network)]; ofis, okul, bina gibi yerel alanları kapsayan çok küçük coğrafi boyutlara sahip bir ağdır. Genellikle ağ boyutu 2 km’ye kadardır. Bu ağ türü; bilgisayar, yazıcı, sunucu ve diğer ağ cihazlar arasında bağlantı kurabilir. Genellikle dosya paylaşımı ve yazıcı gibi aygıtların ortak kullanımı amacıyla oluşturulur."],
+            "context": [""]
+        },
+        {
+            "tag": "man",
+            "patterns": ["man","Kentsel alan ağı","metropolitan area network"],
+            "responses": ["Kentsel alan ağları [MAN (metropolitan area network)] genellikle bir şehir veya yerleşkede kullanılan bilgisayar ağlarıdır. Bu ağlar, birkaç yerel ağın bir araya gelmesinden oluşan daha büyük bir yerel alan ağı olarak düşünülebilir. Kentsel alan ağları ile yerel alan ağları arasındaki bağlantılar omurga olarak isimlendirilir. Omurga bağlantılarında yüksek kapasiteli fiber optik kablo bağlantıları tercih edilir."],
+            "context": [""]
+        },
+        {
+            "tag": "wan",
+            "patterns": ["wan","Geniş alan ağı","wide area network"],
+            "responses": ["Geniş alan ağı [WAN (wide area network)], coğrafi büyüklük olarak bir ülkenin tamamını veya tüm dünyayı kapsayacak şekilde çok büyük mesafeli ve boyutlu ağ bağlantılarını ifade eder. Geniş alan ağları, metropolitan alan ağlarından yerel alan ağlarına kadar tüm ağlarla bağlantı kurabilir. Bu ağlarda uydu haberleşmesi veya yüksek kapasiteli fiber optik bağlantılar tercih edilir."],
+            "context": [""]
+        },
+        {
+            "tag": "vpn",
+            "patterns": ["vpn","vpn tüneli","Sanal özel ağ","virtual private network"],
+            "responses": ["Sanal özel ağ [VPN (virtual private network)], iki farklı ağ arasında güvenli iletişim bağlantısı oluşturmaya olanak tanıyan bir güvenlik teknolojisidir. Bu ağlar ile kullanıcıların kendi kurum kaynaklarına, internet gibi halka açık ağlar üzerinden, güvenli ve uzaktan erişimleri sağlanır. Veri paketleri bir noktadan diğer noktaya özel bir tünel ile şifrelenerek ulaştırılır. Bu yüzden bu ağa VPN tüneli de denir."],
+            "context": [""]
+        },
+        {
+            "tag": "fizikseltopolojiaglari",
+            "patterns": ["Fiziksel Topolojilere Göre Bilgisayar Ağları","fiziksel ağlar","fiziksel topolojik ağlar","topolojik ağlar","ağ topolojisi","fiziksel ağ topolojisi", "mantıksal topoloji"],
+            "responses": ["Bilgisayar, yazıcı, erişim noktası, anahtar, yönlendirici gibi ağ cihazlarının fiziksel ve mantıksal yerleşimine ağ topolojisi adı verilir. Fiziksel ağ topolojisi, ağdaki cihazların yerleşimini, kullanılan kablo türlerini ve bağlantı biçimlerini ifade eder. Mantıksal topoloji ise fiziksel tasarımından bağımsız olarak ağdaki genel veri iletişimini gösterir. Yol, halka, yıldız, örgü ve hücresel olmak üzere beş temel fiziksel topoloji vardır. Diğer topolojiler, temel topolojilerin geliştirilmiş veya birleştirilmiş biçimleridir."],
+            "context": [""]
+        },
+        {
+            "tag": "yoltopolojisi",
+            "patterns": ["Yol Topolojisi","Bus Topology","segment","omurga","backbone","trunk"],
+            "responses": [". Bu topolojide tüm istemciler tek bir kablo hattı üzerine bağlanır. Bu tek kabloya bölüm (segment), omurga (backbone) veya trunk denilebilir. İki düğüm arasında veri iletişimi gerçekleştiğinde veri paketi tüm düğümlere gider. Her düğüm, paketin kendisiyle ilgili olup olmadığını inceler. Kendisiyle ilgiliyse veriyi işler, kendisiyle ilgili değilse işlem yapmaz. Günümüzde kullanılan bölücülü fiber optik ağlar (FTTH) yol topolojisine örnektir."],
+            "context": [""]
+        },
+        {
+            "tag": "yildiztopoloji",
+            "patterns": ["Yıldız Topolojisi","Star Topology","Ring Topology","token","jeton"],
+            "responses": ["Yıldız topolojisinde her düğüm, switch (anahtar) veya hub adı verilen merkezî bir ağ cihazına bağlıdır. Bu topolojide cihazlardan gönderilen veri sinyalleri önce merkezi ağ cihazına gelir, sinyal burada güçlendirilip hedefe veya hedeflere iletilir. Fiber optik veya çift bükümlü kablo kullanılabilir. Ethernet ve Localtalk protokolleri kullanılır."],
+            "context": [""]
+        },
+        {
+            "tag": "orgutopoloji",
+            "patterns": ["Örgü Topolojisi","Mesh Topology","RFID","RFID"],
+            "responses": ["Örgü topolojisinde tüm cihazlar uçtan uca birbiriyle bağlıdır. Maliyet yönünden çok kullanışlı olmayan sistem çok kablo kullanıldığı için tercih edilmez"],
+            "context": [""]
+        },
+        {
+            "tag": "hucreseltopoloji",
+            "patterns": ["Hücresel Topoloji","Cellular Topology"],
+            "responses": ["Hücresel topoloji, merkezinde bağımsız düğümler bulunan daire veya altıgen biçiminde topoloji yapısıdır. Kablosuz teknolojinin kullanımı ile önem kazanan bu topoloji, özellikle bölünmüş coğrafi alanlarda kullanılır."],
+            "context": [""]
+        },
+        {
+            "tag": "mantiksalag",
+            "patterns": ["matıksal ağ topolojisi","matıksal topolojisi","matıksal topolojiler"],
+            "responses": ["Mantıksal topoloji fiziksel tasarımından bağımsız olarak ağdaki genel veri iletişimini gösterir. Ağ üzerindeki cihazların haberleşme şekilleri ve kullandıkları iletişim protokolleri mantıksal topoloji ile açıklanır. Mantıksal ağ topolojisi yayın ve jetonlu geçiş topolojisi olmak üzere iki kısma ayrılır."],
+            "context": [""]
+        },
+        {
+            "tag": "yayintopolojisi",
+            "patterns": ["Yayın Topolojisi","Broadcast"],
+            "responses": ["Her yöne yapılan yayındır. Belirli bir hedef yoktur. Kaynak cihaz, mesajı sistemdeki tüm cihazlara gönderir. Ağa yeni bağlanan her cihaz çevresindeki diğer cihazları tanımak için sinyal yayar. Bu işleme broadcast (yayın) adı verilir. Ağa bağlı cihazların öncelik hakkı yoktur ve ağdaki tüm cihazlara veri iletimi gerçekleştirilir."],
+            "context": [""]
+        },
+        {
+            "tag": "jetonlutopoloji",
+            "patterns": ["Jetonlu Geçiş Topolojisi","Token Passing","token topoloji","jetonlu topoloji"],
+            "responses": ["Temel çalışması fiziksel halka topolojisine benzer. Veri iletimi tüm ağı dolaşan bir jeton (token) üzerinden gerçekleştirilir. Jeton, ağ üzerinde dolaşırken sırayla tüm cihazlarla iletişime geçer ve gönderilecek ya da alınacak veri olup olmadığını kontrol eder."],
+            "context": [""]
+        },
+        {
+            "tag": "agorganizasyonu",
+            "patterns": ["ağ organizasyonu","ağ rolleri","ağ yetkileri","ağ yöneticisi","organizasyon yapısı"],
+            "responses": ["Organizasyon yapısı, ağı oluşturan cihazların veri iletiminde görev ve yetkilerini (rollerini) belirtir. Ağlar organizasyon yapılarına göre istemci - sunucu ve eşten eşe (p2p) olmak üzere ikiye ayrılır."],
+            "context": [""]
+        },
+        {
+            "tag": "istemcisunucu",
+            "patterns": ["istemci","sunucu","client","server"],
+            "responses": ["İstemci - sunucu yapısında ağda bulunan cihazlar, istemci (client) ve sunucu (server) rollerinden birini üstlenir. Sunucu, kaynaklarını ağ kullanıcıları ile paylaşan merkezî bir konumdur. Bir bilgisayar veya yazılım, sunucu olabilir. İstemci (client) ise sunucu veya ağ üzerindeki kaynakları kullanan bilgisayar, cihaz veya yazılımdır"],
+            "context": [""]
+        },
+        {
+            "tag": "p2p",
+            "patterns": ["p2p","peer to peer","eşten eşe","eşler arası"],
+            "responses": ["Eşten eşe [eşler arası (peer to peer)] ağda bilgisayarlar, bilgileri veya verileri paylaşmak için birbirine bağlanır. Tüm iş istasyonları eşit yetkiye sahiptir. İstenildiğinde herhangi bir bilgisayar istemci veya sunucu yapılabilir."],
+            "context": [""]
+        },
+        {
+            "tag": "agkatmani",
+            "patterns": ["ağ katmanı","network layer"],
+            "responses": ["Ağ modelleri, iki bilgisayar (cihaz) arasındaki iletişim için gerekli olan işlemleri katmanlar (layers) hâlinde açıklar. Katmanlı model ile karmaşık ağ işlemleri yönetilebilir küçük parçalara bölünür. İki bilgisayar arasındaki iletişimde katmanlar sırasıyla iletişim kurar."],
+            "context": [""]
+        },
+        {
+            "tag": "osi",
+            "patterns": ["osi","OSI","osi modeli","OSI modeli","open system interconnect"],
+            "responses": ["OSI (open system interconnect) modeli, ISO (international standards organization) tarafından geliştirilmiştir. OSI modelinde uygulama, sunum, oturum, taşıma, ağ, veri bağı, fiziksel olmak üzere 7 katman bulunur."],
+            "context": [""]
+        },
+        {
+            "tag": "tcpip",
+            "patterns": ["tcp ip","tcp","tcp-ip","tcp/ip"],
+            "responses": ["TCP / IP çok sayıda protokol ve yardımcı programlardan oluşan bir protokol kümesidir. TCP / IP başta internet olmak üzere farklı teknolojilere sahip ağları bağımsız olarak yönetir ve geliştirir. OSI modeli, iletişim standartlarını belirlemeye yöneliktir. TCP / IP ise daha uygulanabilir bir model olduğu için daha çok uygulamaya yöneliktir. TCP / IP modeli; uygulama, taşıma, internet ve ağ erişim olmak üzere dört katmandan oluşur."],
+            "context": [""]
+        },
+        {
+            "tag": "ip",
+            "patterns": ["ip","ip nedir","ip adresi","ip numarası"],
+            "responses": ["IP, veri paketlerinin yönlendirilebilmesine imkân veren, adres bilgisi ve bazı kontrol bilgilerini içeren protokoldür. Ağ üzerinde haberleşecek her sistem birer IP adresi kullanır. Ağ arabirim kartlarındaki donanımsal MAC adreslerinin aksine IP adresleri, mantıksal (yazılımla) oluşturulan adreslerdir. Aynı ağda aynı IP adresine sahip birden fazla cihaz olamaz, olursa IP çakışması meydana gelir. IP adresleri, sürüm 4 (IPv4) ve sürüm 6 (IPv6) olmak üzere ikiye ayrılır. IPv4 32 bit, IPv6 ise 128 bit adres genişliğine sahiptir."],
+            "context": [""]
+        },
+        {
+            "tag": "ipv4",
+            "patterns": ["ipv4","ipv4 nedir","ip v4","ip versiyon 4","internet protokol versiyon 4","oktet"],
+            "responses": ["IPv4 adresleme sistemi toplam 32 bitten oluşur. Bu IPv4 adresleme ile 232 yani 4 milyardan fazla adres üretilebilmektedir. 32 bitlik IPv4 adresleri, sekizer bitlik gruplara (oktet) ayrılarak gösterilir. Her bir IP adresi 4 oktetten oluşur. IP adresleri onluk sayı sisteminde ifade edilir. Bu amaçla oktetlerdeki sayılar ikilik sayı sisteminden onluk sayı sistemine çevrilir. Örneğin 192.168.0.2 bir IPv4 adresidir."],
+            "context": [""]
+        },
+        {
+            "tag": "subnet",
+            "patterns": ["subnet","alt ağ maskesi","subnet mask"],
+            "responses": ["IP adresi, ağ (network) ve cihaz (host) adreslerinin birleşiminden oluşur. Ağ adresi, belirli bir ağa ait olan tüm cihazların grup adresidir. Cihaz adresi ise o ağdaki belirli bir cihaza ait benzersiz adrestir. Belirli bir IP adresine sahip olan bir cihazın hangi ağda olduğunu belirlemek için IP adresi ile birlikte alt ağ maskesi adı verilen bir adres değeri kullanılır. Örneğin A sınıfına ait varsayılan ağ maskesi 255.0.0.0’dır."],
+            "context": [""]
+        },
+        {
+            "tag": "statikadresleme",
+            "patterns": ["statik adresleme","statik ip","elle ip","elle adresleme","manuel ip verme","elle ip girme"],
+            "responses": ["Statik adresleme, genellikle az sayıda cihazın bulunduğu yerel alan ağlarında (LAN) IP adreslerinin elle yapılandırıldığı adresleme şeklidir. Aynı ağdaki her cihaza benzersiz bir IP adresi atanmalıdır. Bunun için Denetim Masası > Ağ ve Internet > Ağ ve Paylaşım Merkezi > Bağdaştırıcı ayarlarını değiştirin seçeneğine tıklanır."],
+            "context": [""]
+        },
+        {
+            "tag": "dinamikadresleme",
+            "patterns": ["dinamik adresleme","dinamik ip","otomatik ip","elle adresleme","otomatik ip verme","otomatik ip girme"],
+            "responses": ["Ağa katılan bilgisayarlara, dinamik ana bilgisayar yapılandırma protokol (DHCP) sunucusu üzerinden otomatik olarak IP adresleri dağıtılabilir. Statik IP adresleri yapılandırılmış Ethernet kartlarında “Otomatik olarak bir IP adresi al” seçeneği seçildiğinde tanımlı adres bilgileri silinir ve dinamik adreslemeye geçilir."],
+            "context": [""]
+        },
+        {
+            "tag": "baglantitemelliprotokol",
+            "patterns": ["bağlantı temelli protokol","bağlantı protokolü"],
+            "responses": ["Bağlantı temelli protokollerde uçlar arasında veri alışverişi yapılmadan önce mantıksal bir bağlantı kurulur. Uçlar, veri iletimi öncesinde birbirine kontrol paketi gönderir. Bağlantı temelli protokoller; güvenli veri gönderimi, akış ve sıkışıklık kontrolü, hata denetimi gibi özelliklere sahiptir."],
+            "context": [""]
+        },
+        {
+            "tag": "baglantisizprotokol",
+            "patterns": ["bağlantısız protokol"],
+            "responses": ["Bağlantısız protokoller iki ağ uç noktası arasındaki mesajın bir uç noktadan diğerine önceden bir düzenleme yapılmadan gönderildiği iletişimdir. Bağlantısız protokol, alıcının hazır olup olmadığını ve hatta bir alıcının var olup olmadığını belirlemeden sinyalin çıktığı bir veri iletim şeklidir."],
+            "context": [""]
+        },
+        {
+            "tag": "dns",
+            "patterns": ["dns","Domain Name System","Alan adı sistemi"],
+            "responses": ["Alan adı sistemi (DNS), alan adı (domain) olarak isimlendirilen internet site adreslerini IP adresine çeviren protokoldür. DNS, kullanıcıların web sitelerine daha kolay bağlanmalarına yardımcı olur."],
+            "context": [""]
+        },
+        {
+            "tag": "udp",
+            "patterns": ["udp"],
+            "responses": ["Bağlantısız protokollerden biri olan UDP, güvenilir olmayan bir veri aktarım protokolüdür. Taşıma katmanı protokolü olan UDP paketleri, IP tarafından kapsüllenir ve taşınır."],
+            "context": [""]
+        },
+        {
+            "tag": "port",
+            "patterns": ["port","port nedir","port numarası","port numaraları","önemli portlar","ftp portu","mail portu", "posta portu", "web portu"],
+            "responses": ["Port, uygulama katmanı ile taşıma katmanı protokolleri arasında yer alan ağ üzerinden veri alıp iletmesini sağlayan bir köprüdür. 0 ile 1023 arasındaki portlar iyi bilinen (well known) portlar olarak adlandırılır. 1024 ile 49151 arasındaki portlar ise kayıtlı (registered) portlar olarak adlandırılır. 49152 ile 65535 arasındaki portlar kısa ömürlü (ephmeral, dynamic, private) port olarak adlandırılır. Bazı önemli port numaralı şu şekilkdedir: 20,21 FTP, 25 SMTP, 53 DNS, 80 HHTP, 110 POP3, 443 HTTPS"],
+            "context": [""]
+        },
+        {
+            "tag": "netkatmanprotokol",
+            "patterns": ["arp","icmp","ICMP","internet kontrol mesaj protokolü","adres çözümleme protokolü"," İnternet Katmanı Protokolleri"],
+            "responses": ["İnternet Katmanı Protokolünde, internet protokolü (IP), internet kontrol mesaj protokolü (ICMP) ve adres çözümleme protokolü (ARP) yer alır. İnternet katmanında tanımlı IP ve ICMP, bir üst katmandan gelen segmentleri alıcıya uygun yoldan ve hatasız ulaştırmakla yükümlüdür. Bu amaçla IP katmanında gelen segmentlere özel bir IP başlık bilgisi eklenir."],
+            "context": [""]
+        },
+        {
+            "tag": "agerisimprotokolü",
+            "patterns": ["ağ erişim katmanı"],
+            "responses": ["Ağ erişim katmanı, TCP IP modelinde verilerin fiziksel ağ üzerinden iletildiği ve alındığı katmandır. Bu katmanda Ethernet, Token Ring, ATM, Frema Relay gibi protokoller yer alır. Bu protokollerden Ethernet, en çok kullanılan protokollerden biridir."],
+            "context": [""]
+        },
+        {
+            "tag": "agcihazlari",
+            "patterns": ["ağ cihazı","ağ donanımı","ağ aygıtı"],
+            "responses": ["Ağ cihazları veya ağ donanımları, bilgisayar veya benzeri sayısal sistemler arasında iletişim ve etkileşim için gerekli olan fiziksel cihazlardır. Bir ağ yapısı bu tür cihazların birbirine bağlanmasıyla oluşur. Kullanılan ağ cihazları ağın özelliklerini ve işlevini belirler."],
+            "context": [""]
+        },
+        {
+            "tag": "agkarti",
+            "patterns": ["ağ kartı","ağ arabirim kartı","ethernet kartı","nic","network interface card"],
+            "responses": ["Bilgisayarların ve diğer cihazların bir ağa bağlanmasını sağlayan donanımlara ağ arabirim kartı [NIC (network interface card)] denir. Günümüzde neredeyse tüm yeni bilgisayar anakartlarında tümleşik olarak ağ arabirim bağlantısı yer alır. Kablolu ve kablosuz modelleri bulunur. "],
+            "context": [""]
+        },
+        {
+            "tag": "repeater",
+            "patterns": ["repeater","tekrarlayıcı"],
+            "responses": ["Tekrarlayıcılar, üzerinde iki bağlantı noktası (port) bulunan ağ cihazlarıdır. Temel amaçları aldıkları sinyalleri güçlendirip yenileyerek iletmek, ağın iletim mesafesini arttırarak ağı genişletmektir. Günümüzde tekrarlayıcılar, genellikle uzun mesafeli ağlarda fiber optik kabloların sinyallerini güçlendirmek için kullanılır."],
+            "context": [""]
+        },
+        {
+            "tag": "hub",
+            "patterns": ["hub"],
+            "responses": ["Hub, bir bağlantı noktasından (port) gelen veriyi yeniden oluşturarak diğer tüm bağlantı noktalarına gönderen basit ağ cihazlarıdır."],
+            "context": [""]
+        },
+        {
+            "tag": "bridge",
+            "patterns": ["bridge","köprü"],
+            "responses": ["Köprüler, tekrarlayıcılar gibi 2 porta sahip cihazlardır. Ancak tekrarlayıcılardan farklı olarak OSI referans modelinin veri bağı katmanında çalışır. Ağı MAC adreslerine göre ayırmak (segmentlere) için kullanılır. Köprüler, her segmentteki tüm cihazların MAC adreslerini kaydeder ve adres bilgilerine göre ağı segmentlere ayırır. Bu, cihazlar arasındaki trafik miktarının azaltılmasına yardımcı olur"],
+            "context": [""]
+        },
+        {
+            "tag": "switch",
+            "patterns": ["switch","anahtar"],
+            "responses": ["Anahtarlar, bağlantı noktalarından (port) gelen veriyi MAC veya IP adresi bilgisine göre filtreleyerek ilgili portlardaki bilgisayar veya bilgisayarlara ileten ağ cihazlarıdır. Anahtar, gelen veriyi sadece istenilen cihaz veya cihazlara gönderirken hub ise tüm cihazlara gönderir ve sadece ilgili aygıt veriyi açar."],
+            "context": [""]
+        },
+        {
+            "tag": "kablosuzerisimnoktasi",
+            "patterns": ["kablosuz erişim noktası","ap","wireless access points"],
+            "responses": ["Kablolu bir ağı kablosuz hâle çevirerek dizüstü bilgisayarlar ve tabletler gibi kablosuz aygıtlara radyo dalgaları ile ağ erişimi sağlar."],
+            "context": [""]
+        },
+        {
+            "tag": "router",
+            "patterns": ["router","yönlendirici"],
+            "responses": ["Yönlendirici; ağlar arasındaki paketlerin, başlığındaki hedef adres bilgilerini, yönlendirme tablosu ile karşılaştırarak yönlendirme kararlarını verip aktarımını gerçekleştiren kontrol merkezi niteliğindeki cihazlardır."],
+            "context": [""]
+        },
+        {
+            "tag": "firewall",
+            "patterns": ["firewall","güvenlik duvarı","donanımsal güvenlik duvarı","yazılımsal güvenlik duvarı","güvenlik duvarı çeşitleri", "güvenlik duvarı farkları"],
+            "responses": ["Güvenlik duvarları, bir ağdaki veri ve cihazları yetkisiz kişilerin erişimine karşı korur. Güvenlik duvarı teknolojisi, yapısal olarak donanım ve yazılım tabanlı olmak üzere iki kategoride incelenebilir. Donanımsal güvenlik duvarı iki veya daha fazla ağ arasında bulunur. Korumakta olduğu bilgisayarların kaynaklarını kullanmaz. Bu nedenle işlem performansı üzerinde bir etkisi yoktur. Yazılımsal güvenlik duvarı ağ üzerinde genelde sunucu servislerine yüklenir. Sunucu, her bir bağlantı isteğini keserek talebin geçerli olma durumunu denetler. Performans açısından dezavantajları bulunmakla birlikte donanımsal güvenlik duvarlarına göre daha esnek ve daha kolay kullanıma sahiptir."],
+            "context": [""]
+        },
+        {
+            "tag": "modem",
+            "patterns": ["modem","Modülasyon","Demodülasyon"],
+            "responses": ["Modem, bir internet servis sağlayıcısından aldığı veriyi dijital ve analog sinyallere çevirmektir. Modem terimi, modülasyon ve demodülasyon terimlerinin bir araya getirilmesiyle oluşmuştur. Modülasyon,  dijital verinin, modem tarafından analog sinyale eklenerek merkezî sisteme iletmesi işlemidir. Demodülasyon ise modemin merkezî sistemden gelen, veri paketleri taşıyan analog sinyalleri alarak bilgisayarın kullanabileceği dijital sinyallere dönüştürmesidir."],
+            "context": [""]
+        },
+        {
+            "tag": "agkablosu",
+            "patterns": ["ağ kablosu","networkcable","kablo","bakır kablo","koaksiyel","eş eksenli","çift bükümlü","twisted pair","tp"],
+            "responses": ["Kablolar, genellikle çevresi koruyucu tabakalar ile kaplanan, mümkün olan en az kayıpla veri iletiminin gerçekleşmesini sağlayan araçlardır. Veri, enerji ve sinyal iletiminde kullanılır. Yerel alan ağlarında genellikle bakır içeren kablolar kullanılır. Yerel alan ağlarında kullanılan iki bakır kablo türü koaksiyel (eş eksenli) ve çift bükümlü kablodur. Koaksiyel kabloların merkezinde iletken bakır veya alüminyum tel bulunur ve 100 Mbsn.ye kadar veri iletimi gerçekleştirebilir. Çift bükümlü kablo farklı derecelerde bükülmüş çiftlerin dört tanesinin bir araya getirilip üzerlerine esnek bir plastik kılıf geçirilmesi ile oluşan kablolardır. Dört farklı renk grubu ile kodlanmış sekiz telden oluşur."],
+            "context": [""]
+        },
+        {
+            "tag": "kablohazirlama",
+            "patterns": ["kablo hazırlama","ağ kablosu hazırlama","jak çakma","konnektör çakma","RJ45","kablolama","kablolama aleti","ağ pensesi","kablo pensesi","kablo test cihazı","kablo test aleti","kablo renkleri","renk sıralaması"],
+            "responses": ["Yerel alan ağlarında kullanılan bakır TP kabloların sonlandırılmasında RJ45, GG45, TERA, ARJ45 konnektörler kullanılır. Konnektöre takılmadan önce kablo uçlarının belirli bir dizilimle sıralanması gerekir. Bu sıralama T568A standartına göre Yeşil Beyaz - Yeşil, Turuncu Beyaz - Mavi, Mavi Beyaz - Yeşil, Kahve Beyaz - Kahvedir. T568B standartında ise  Turuncu Beyaz - Turuncu, Yeşil Beyaz - Mavi, Mavi Beyaz - Yeşil, Kahve Beyaz - Kahvedir.          "],
+            "context": [""]
+        },
+        {
+            "tag": "yapisalkablolama",
+            "patterns": ["yapısal kablolama","yapısal kablolamanın önem","yapısal kablolama nerelerde kullanılır","Yapısal Kablolama Aksesuarları"],
+            "responses": ["Bir bina içerisinde farklı sistemlerin (telefon, güvenlik ve bilgisayar gibi) duvar ya da döşeme içinden kullanıma en uygun şekilde düzenlenerek oluşturulmasına yapısal kablolama denir. Bilgisayar laboratuvarlarında, fabrikalarda, büyük ya da küçük iş yerlerinde yapısal kablolamanın önemi büyüktür. Yapısal kablolamada kablo hazırlama aletlerinin haricinde duvar prizi, patch kablo, patch panel, kabin, kabinet ve bunlara ait modüller ile patch panel çakma pensesi gibi çeşitli aksesuar ve aletler kullanılır."],
+            "context": [""]
+        },
+        {
+            "tag": "patchpanel",
+            "patterns": ["Patch Panel","patch cord","patch kablo"],
+            "responses": ["Ağ kablolarının toplandığı konnektör gruplarına patch panel adı verilir. Panelin ön kısmında yer alan RJ45 girişine patch cord veya patch kablo adı verilen fabrikasyon olarak üretilmiş ağ kablosu bağlanır. Patch cord kablonun diğer ucu ise ağ cihazına bağlanır. Patch panel kullanımı, ağda sonradan meydana gelebilecek kablo arızasına müdahaleyi de kolaylaştırmaktadır."],
+            "context": [""]
+        },
+        {
+            "tag": "rj45verj11",
+            "patterns": ["rj45","rj11","konnektör çeşitleri","konnektör farkları","rj45 ile rj11 farkı"],
+            "responses": ["RJ45 ağ kablosu ucuna takılırken ve RJ11 telefon kablosu ucuna takılır."],
+            "context": [""]
+        },
+        {
+            "tag": "kabinet",
+            "patterns": ["kabinet","ağ kabinini","RFID"],
+            "responses": ["Ağ kabinleri veya kabinetler, yapısal kablolamada tüm cihazlardan gelen kabloların toplandığı, kabloların ve ağ cihazlarının organize bir şekilde yerleştirilmesini ve dış etmenlere karşı korunmasını sağlayan metal gövdeli kutulardır. Kabinet sistemleri temel olarak duvar tipi ve dikili tip olmak üzere iki modelde üretilir."],
+            "context": [""]
+        },
+        {
+            "tag": "kronepensesi",
+            "patterns": ["krone","krone pensesi","çakma pensesi"],
+            "responses": ["Ağ kablolarının prize ve patch panelin arka kısmında bulunan keystone olarak adlandırılan jak girişlerine sabitlenmesi için çakma pensesi kullanılır."],
+            "context": [""]
+        },
+        {
+            "tag": "ethernetkarti",
+            "patterns": ["ethernet kartı","ethernet adaptörü","ethernet kartı nasıl çalışır"],
+            "responses": ["Ağ arabirim kartı olarak da adlandırılan Ethernet kartları, genelde yerel ağlarda cihazlar arası veri iletimi için kullanılan aygıtlardır. Ethernet üzerinden veriler paketler hâlinde iletilir. Bilgisayar bu veride bazı hesaplamalar yaparak bir kod üretir ve bu kodu verinin sonuna ekler. Veri, diğer bilgisayara ulaştığında hesaplamalar yaparak veri paketini açar ve kodu hesaplar. Kodların aynı olması verinin doğru iletildiğini gösterir."],
+            "context": [""]
+        },
+        {
+            "tag": "ethernetkartimontaji",
+            "patterns": ["ethernet kartı nasıl takılır","ethernet kartı montajı","ethernet kartı kurulumu"],
+            "responses": ["Bilgisayar kasası açılır. > Anakarttaki uygun genişleme yuvasına takılır. > Vidayla sabitlenir. > Bilgisayar kasası kapatılır. > Ethernet kartının girişine ağ kablosunu takılır ve ağa bağlanılır. "],
+            "context": [""]
+        },
+        {
+            "tag": "uygulamaayari",
+            "patterns": ["uygulama ayarı","uygulama ayarları","RFID"],
+            "responses": ["Uygulama ayarları belirli konulardaki problemlerin çözümüne yönelik, işletim sistemine uygun olarak yazılmış programlardır. Temel olarak akla gelen ilk ayarlar; kullanıcı hesapları, görünüm ve kişiselleştirme, saat, bölge ve dil ile güvenlik ayarlarıdır."],
+            "context": [""]
+        },
+        {
+            "tag": "kullanicihesabi",
+            "patterns": ["kullanıcı hesabı","kullanıcı hesapları","user account"],
+            "responses": ["Kullanıcı hesabı, bir bilgisayardaki veya bilgisayar sistemindeki bir kişi için oluşturulan, işletim sisteminde oturum açılmasına olanak tanıyan kimliktir. Kapalı ve açık kaynak işletim sistemlerinde genel olarak benzer amaçlara yönelik kullanıcı hesapları tanımlanmıştır."],
+            "context": [""]
+        },
+        {
+            "tag": "kullanicihesabiolusturma",
+            "patterns": ["kullanıcı hesabı oluşturma","üyelik oluşturma","yönetici hesabı"],
+            "responses": ["Kapalı kaynak işletim sistemi kurulumunda varsayılan olarak bir kullanıcı hesabı oluşturulur. Bu hesap yönetici hesabıdır. Bunun dışında standart, çocuk ve misafir olmak üzere dört temel kullanıcı hesabı vardır. Kapalı kaynak sistemde yeni hesap oluşturmak için Ayarlar > Hesaplar > Aile ve diğer kullanıcılar > Bu bilgisayara başka birini ekle yolu izlenir. Açık kaynak sistemlerde ise Açık kaynak işletim sisteminde kök (root), sistem (system) ve normal olmak üzere üç tür kullanıcı hesabı vardır. Açık kaynak sistemde yeni hesap oluşturmak için ise Kullanıcılar ve Gruplar > Ayarlar > Ekle > Yeni Kullanıcı Oluştur yolu izlenir."],
+            "context": [""]
+        },
+        {
+            "tag": "ekrancozunurluguayarlari",
+            "patterns": ["ekran çözünürlüğü ayarı","çözünürlük ayarı","ekran ayarı"],
+            "responses": ["Kapalı kaynak işletim sistemi üzerinde kullanıcı kişisel özelliklerine göre ekran çözünürlük değeri değiştirilerek daha net bir görüntü elde edilebilir. Bunun için arama kısmına Görüntü ayarları yazın ve açılan pencedrede Ekran Çözünürlüğü menüsüne tıklayın. Çözünürlük değerini seçerek faaliyetinizi tamamlayın. Açık kaynak işletim sisteminde de kapalı kaynak işletim sisteminde olduğu gibi ekran çözünürlük değeri değiştirilebilmektedir. Bunun için Başlar > Ayarlar > Görüntüle > Çözünürlük adımları izlenir."],
+            "context": [""]
+        },
+        {
+            "tag": "saatdilbolgeayarları",
+            "patterns": ["saat ayarları","bölge ayarları","dil ayarları","para birimi ayarları","saat bölge ve dil ayarları"],
+            "responses": ["İşletim sistemi kurulum aşamasında saat, dil ve bölge ayarları belirlenir. Kapalı kaynak işletim sisteminde bölge ayarlarını değiştirmek için Başlat > Ayarlar > Zaman ve Dil adımları izlenir. Açık kaynak işletim sisteminde bölge ayarlarını değiştirmek için Uçbirimde 'sudo dpkp-reconfigure locales' komutu yazılır ve Enter tuşuna basılır. "],
+            "context": [""]
+        },
+        {
+            "tag": "guvenlikayarlari",
+            "patterns": ["güvenlik ayarları","antivirüs", "güvenlik duvarı","güvenlik merkezi","güvenlik"],
+            "responses": ["Bilgisayar virüsleri ve kötü amaçlı yazılımlar, bilgisayarlara zarar vermek veya kişisel bilgileri almak amacıyla özel olarak yazılmış yazılımlardır. İşletim sistemini zararlı yazılımlardan korumak için öncelikle sistem güncelleştirmeleri aktifleştirilmeli ve güvenlik yazılımı etkinleştirilmelidir. Günümüzün kapalı kaynak işletim sistemleri, antivirüs ve kötü amaçlı yazılımlara karşı güvenlik merkezi yazılımlarıyla birlikte gelir. Güvenlik merkezi yazılımları; virüs koruması, aile koruması, güvenlik duvarı ayarları, cihaz performansı ve sağlık raporları gibi güvenlikle ilgili araçlara erişim sağlayan yazılımlardır. Sürekli değişen ve gelişen siber tehditlere karşı ayrı bir koruma katmanı eklemek faydalı olabilir. Bu koruma katmanı genellikle sistem üzerine yüklenen antivirüs veya güvenlik duvarı yazılımıdır. Açık kaynak işletim sistemi, kapalı kaynak işletim sistemine göre virüslere karşı daha korunaklıdır. Ancak veri güvenliğinin önemi düşünüldüğünde siber saldırılara ve virüs tehditlerine karşı açık kaynak işletim sistemlerinde de antivirüs programları kullanılır."],
+            "context": [""]
+        },
+        {
+            "tag": "guvenlikicinyapilmasigerekenler",
+            "patterns": ["bilgisayar güvenliği nasıl sağlanır","bilgisayarı virüslerden korumak için neler yapılmalıdır", "bilgisayarda güvenlik önlemleri","güvenli bilgisayar kullanımı"],
+            "responses": ["Güvenlik duvarı yazılımları kullanılmalıdır. Etkinliği kanıtlanmış, bilgisayarı yormadan çalışacak bir virüs yazılımı kurulmalıdır. İnternet tarayıcı “pop-up” ayarları kapatılmalıdır. Kullanıcı hesaplarının (özellikle yönetici) şifreleri belli aralıklarla değiştirilmelidir. İnternet erişiminde şifresiz Wi-Fi bağlantıları kullanılmamalıdır. Sistem geri yükleme noktası oluşturularak sorun hâlinde sistemin güvenli bir noktaya dönüşü sağlanmalıdır. Çalışma dosyaları belirli periyotlarda yedeklenmelidir."],
+            "context": [""]
+        },
+        {
+            "tag": "webtarayici",
+            "patterns": ["web tarayıcı","web browser","chrome","opera","internet explorer","edge","mozilla firefox","web tarayıcı kurulumu","web browser nasıl kurulur"],
+            "responses": ["Web tarayıcıları internet üzerinde kişilerin gerekli bilgilere ulaşabilmesine ve bu bilgileri kullanabilmesine olanak sağlar.Web tarayıcıları genellikle ücretsizdir. Kurulan işletim sisteminin önerdiği veya varsayılan olarak kurulmuş web tarayıcıları vardır. Web tarayıcılarının seçilmesinde iki önemli nokta kilit rol oynamaktadır. Bunlar hız ve güvenliktir. Web tarayıcı bilgisayara kurmak için kapalı kaynak sistemlerde kurmak istediğiniz web tarayıcının kurulum dosyası indirilir ve kurulm adımları takip edilir. Açık kaynak sistemlerde ise uygulama mağazında İnternet sekmesinde sunulan taryıcılarından istenilen bilgisayara kurulabilir. "],
+            "context": [""]
+        },
+        {
+            "tag": "biossaatayari",
+            "patterns": ["bios saat ayarı","sistem saati","bios saati"],
+            "responses": ["İlgili tuş ile bios yazılımına girildikten sonra Standart CMOS Features (standart CMOS özellikleri) menüsüne girilerek sistem saati ve tarihi ayarlanabilir."],
+            "context": [""]
+        },
+        {
+            "tag": "bioscikis",
+            "patterns": ["bios ayarlarından çıkış","biosu kapatma","bios exit","bios ayarlarını kaydetme","bios ayarları nasıl kayededilir","bios nasıl kapatılır","biostan nasıl çıkılır"],
+            "responses": ["BIOS menüsünden çıkmak için iki seçenek vardır. Bunlardan ilki kaydet ve çık seçeneğidir. Diğeri ise kaydetmeden çık seçeneğidir. Eğer ayarlarda herhangi bir değişiklik yaptıysanız ve bir sonraki açılışta bu ayarların aktif olmasını istiyorsanız mutlaka kaydet ve çık (SAVE to CMOS and EXIT (Y / N) ekranında Y tuşuna basmak.) seçeneğini kullanmalısınız."],
+            "context": [""]
+        },
+        {
+            "tag": "kaynakkod",
+            "patterns": ["kaynak kod","source code","kapalı kaynak kod","açık kaynak kod"],
+            "responses": ["Programcıların, bir yazılımı oluştururken kullandıkları kodların tamamına kaynak kod (source code) denir. Kapalı kaynak kod ile kastedilen, kaynak kodun bir ticari sır kabul edilerek gizli tutulması, üretici firma tarafından açıklanmamasıdır. Açık kaynak kod ise kodların herkese açık olmasıdır."],
+            "context": [""]
+        },
+        {
+            "tag": "oskurulum",
+            "patterns": ["işletim sistemi kurulumu","format atma","windows yükleme","pardus yükleme","işletim sistemi yükleme","windows 11 yükleme","windows 10 yükleme","windows 7 yükleme","windows 8 yükleme","linux yükleme","ubuntu yükleme","işletim sistemi etkinleştirme","windows etkinleştirme","windows lisans","işletim sistemi aktifleştirme","windows aktifleştirme","driver yükleme","aygıt sürücüsü yükleme","aygıt sürücüsü","driver"],
+            "responses": ["İşletim sistemi kurulumu kapalı kaynak ve açık kaynak olmak üzere ikiye ayrılır. Kapalı kaynak işletim sistemi kurmak için kuracağımız işletim sisteminin ISO dosyasının bir flaş bellekte veya DVD medyada hazırda olması gerekir. Ardından BİOStan gerekli ayar yapılarak bilgisayar bu yükleme dosyasından başlatılır ve işletim sistemi kurulum adımları takip edilir. Kurulum tamamlandıktan sonra bilgisayar internete bağlanır ve etkinleştirme yapılır. Etkinleştirme için Ayarlar > Windows Ayarları > Güvenlik ve Etkinleştirme adımları izlenir. Sonraki adım ise aygıt sürücülerinin yüklenmesidir. Bunun için aygıt sürücülerinin içinde olduğu bir CD olmaktadır genelde. Eğer böyle bir CD yoksa aygıt sürücüleri internetten indirilerek yüklenmelidir. Açık kaynak işletim sistemine en tipik örnekler Linux, Ubuntu, Debian, Pardus gibi işletim sistemleridir. Burada TÜBİTAK tarafından geliştirilen ve millî işletim sistemi olan Pardus işletim sisteminin kurulumunu anlkatacağım sana. Pardus'un internet sitesinden ISO dosyası indirilir ve önyüklenebilir bir USB bellek oluşturulur. Ardından BİOStan gerekli ayar yapılarak bilgisayar bu yükleme dosyasından başlatılır ve işletim sistemi kurulum adımları takip edilir. Kurulum tamamlandıktan sonra internete bağlanıp güncellemeler alınır.  Bunun için Başlat menüsünden Uçbirim açılur ve sudo apt-get update komutunu yazıp enter tuşuna basmak yeterli olacaktır. Pardus işletim sisteminin kurulumu esnasında donanım aygıtlarının neredeyse tamamı otomatik olarak yüklenmektedir."],
+            "context": [""]
+        },
+        {
+            "tag": "programkurma",
+            "patterns": ["program kurma","program ekleme","yazılım kurulumu","yardımcı yazılım","program ekle","windows store","Not Defteri", "Hesap Makinesi", "Paint", "Ekran Alıntısı Aracı", "web tarayıcı","medya oynatıcı", "Windows Medya Oynatıcı","store","mağaza"],
+            "responses": ["Kapalı kaynak kodlu işletim sistemi birçok kullanışlı yardımcı programla birlikte gelmektedir. Not Defteri, Hesap Makinesi, Paint, Ekran Alıntısı Aracı, Windows Medya Oynatıcı gibi yardımcı programlar, kullanılan işletim sisteminin daha önceki sürümlerinden bilinen kullanışlı uygulamalardır. Ancak daha profesyonel uygulamaları kullanmak için bu uygulamaları bilgisayara kurmak gerekir. Kapalı kaynak kodlu işletim sistemi ile gelen store (mağaza) sayesinde internetten birçok uygulama indirilerek bilgisayara kurulabilir. Başka bir yöntem olarak uygulamanın kurulum dosyasının olduğu CD ya da USB flaş bellek bilgisayara takılıp kurulum yapılabilir. Açık kaynak kodlu işletim sistemi ise birçok kullanışlı yardımcı programla birlikte gelmektedir. Not defteri, hesap makinesi, resim düzenleyicisi, ofis programları, medya oynatıcısı, web tarayıcısı gibi yardımcı programlar işletim sistemi ile hazır olarak yüklü gelmektedir. Ancak daha farklı uygulamaları kullanmak için bu uygulamaları bilgisayara kurmak gerekir. Açık kaynak kodlu işletim sistemi içerisinde yer alan “Pardus Mağaza” uygulaması sayesinde internetten birçok uygulama indirilerek bilgisayara kurulabilir"],
+            "context": [""]
+        },
+        {
+            "tag": "ofisprogramları",
+            "patterns": ["ofis","office","ofis programları","word","excel","power point","publisher","acces","outlook","metin işleme","tablolama","sunu","veri tabanı"],
+            "responses": ["Bir bilgisayar kullanıcısının metin işleme, tablolama, sunu vb. gibi ihtiyaç duyabileceği tüm yazılımları bir arada toplayan ofis programları sayesinde kâğıt üzerinde yapılabilecekler dijital ortamda da gerçekleştirilebilir. Kapalı kaynak işletim sistemlerinde ofis programlaı yüklü olarak gelmez. Ücretli veya ücretsiz bir ofis programı yüklenilerek kullanılabilir. Açık kaynak işletim sistemi pardusta ise ofis programları kurulmuş olarak gelir. Bu ofis paketi içerisinde Kelime İşlemci, Elektronik Tablolama, Sunum Hazırlama, Sözlük, Veri Tabanı aracı gibi uygulamalar yer alır."],
+            "context": [""]
+        },
+        {
+            "tag": "iso",
+            "patterns": ["iso dosyası","iso kalıbı","iso","disk imajı","disk kalıbı","disk yansıması"],
+            "responses": ["Disk imajı, disk kalıbı ya da disk yansıması gibi çeşitli isimlerle adlandırılabilen ISO dosya biçimi, günümüzde neredeyse standartlaşmıştır. ISO dosyası, bir veri CD’si veya DVD’sinin bütün içeriğini aynen içeren tek bir dosyadır. ISO dosyası boş bir CD veya DVD’ye yazıldığında elde edilen bu yeni diskte, orijinal diskteki aynı klasör, dosya ve özellikler bulunur. ISO biçimindeki bir dosya “sanal bir DVD” olarak düşünülebilir."],
+            "context": [""]
+        },
+        {
+            "tag": "donanimsorunugiderme",
+            "patterns": ["donanım sorunu","donanım sorunu düzeltme","donanım sorunu giderme","donanım değişikliği","donanım ekleme","driver yükleme","firmware yükleme"],
+            "responses": ["Kapalı kaynak işletim sistemi kurulduktan sonra eğer bir donanım değişikliği meydana gelirse bilgisayar ilk açılışında bu donanıma ait sürücüleri kendi kütüphanesinde arar ve bulursa yükler. Şayet donanıma ait sürücü kütüphanede yoksa Windows Update ile çözüm üretmeyi dener. Yine burada da o donanıma ait sürücü dosyasını bulamazsa donanıma ait sürücünün elle yüklenmesi gerekmektedir. Masaüstündeki Bu Bilgisayar (Bilgisayarım) simgesinin üzerinde farenizin sağ tuşuna ve ardından Yönet seçeneğine tıklayınız. Açılan Bilgisayar Yönetimi penceresinden Aygıt Yöneticisine tıklayınız.  Bilgisayarınıza bağlı bulunan aygıt listesi açılacaktır. Eğer herhangi bir aygıt üzerinde sarı ünlem işareti varsa bu aygıt ile ilgili bir sorun vardır demektir. Sürücüsünün yüklenmesi veya güncellenmesi gerekmektedir. Pardus işletim sistemine sahip bir bilgisayarın donanımları değiştirildiğinde Pardus o aygıtlar için uygun aygıt sürücülerini arayıp yükleyerek sistemi başarıyla açabilir. Bu derece dinamik bir sistemin çalışabilmesi için aygıt sürücüleri yüklenirken kendisini çekirdeğe kaydettirir. Olası donanım hatalarında ise firmware güncellemesi yapılarak donanım sorunları giderilebilir. Pardus (Başlat) menüsünden Uçbirim Öykünücüsü seçeneğine tıklayınız. Komut satırına sudo apt-get install linux-firmware komutunu yazınız. Bilgisayarınızdaki donanımlara ait sürücü kontrolü yapıldıktan sonra güncellenmesi veya indirilmesi gereken paket varsa E tuşuna basarak yüklemeyi yapabilirsiniz. "],
+            "context": [""]
+        },
+        {
+            "tag": "yazılımhatasigiderme",
+            "patterns": ["yazılım hataları","yazılımsal hataları giderme","yazılım hatalarını düzeltme","Minimum Donanım İhtiyacı Sorunu","Yazılım Uyumluluk Sorunu"],
+            "responses": ["şletim sistemlerine yüklenen yazılımların neden olduğu sorunlar işletim sisteminin doğru çalışmasını etkileyebilir. Sorunların incelenip neden kaynaklandığının tespit edilmesi ve çözüm geliştirilmesi gerekmektedir. Yazılımlarda meydana gelebilecek sorunların muhtemel sebepleri ve yapılması gereken işlemler şunlardır: Minimum Donanım İhtiyacı Sorunu: Bir yazılımın çalışabilmesi için gerekli olan donanım ihtiyacının giderilmesi gerekmektedir. Gerekli seviyede bulunmayan donanımla yazılımların çalışması mümkün olmayacak veya çalışma sırasında sorunlar meydana gelecektir. Bu sorunun yaşanmaması ve yazılımların yüklenmeden önce doğru bir şekilde çalışabilmesi için ihtiyaç duyduğu en az sistem kaynağının sağlanıp sağlanmadığı kontrol edilir. Yazılım Uyumluluk Sorunu: Bu nedenle yazılımın doğru bir şekilde çalışabilmesi için işletim sistemi ile uyumlu olması gerekir. “Program uyumluluğu sorunu gidericisi” çalıştırılarak yazılımların işletim sistemi ile uygun olup olmadığı kontrol edilir ve sorun giderilmeye çalışılır. Sorun devam ediyorsa yazılımın işletim sistemi ile uyumlu bir sürümü bulunarak yüklenir. "],
+            "context": [""]
+        },
+        {
+            "tag": "ilkacilissorunu",
+            "patterns": ["bilgisayar açılmıyor","açılış sorunu","bilgisayar başlamıyıor","açılış hatası","“Non System disk", "disk error","ntldr","ntdetect","boot.ini","ntldr is missing"],
+            "responses": ["Bilgisayar açılış düğmesine basıldıktan sonra (sistemin başlatılması) sesli veya yazılı olarak bildirilen uyarı mesajları ile belirlenebilir. 1- Non-System disk or disk error hatasını gidermek için BIOS a girip Boot menüsüne veya gelişmiş BIOS ayarları menüsüne giriniz. Açılış sıralamasını farklı sürücüleri seçerek değiştiriniz. 2- İşletim sisteminin çalışabilmesi için ntldr, ntdetect.com ve boot.ini dosyalarının yüklenmesi gerekmektedir. Bu üç dosyadan herhangi biri silinmiş veya zarar görmüş ise işletim sistemi açılmayacaktır. Bu sorun karşısında yapılacak işlemler şunlardır: BIOS a girilerek varsayılan ayarlar yüklenir. İşletim sistemi yükle medyası ile önyükleme yapılarak kurtarma konsoluna girilir ve R komutu (repair) ile onarım işlemi seçilir. Konsol komutları kullanılarak medyadan (CD, DVD veya flaş bellek) i386 klasörüne girilir ve eksik olan ntldr dosyası işletim sisteminin bulunduğu sürücüye yüklenir. BIOS güncellenir. Bilgisayar yeniden açılarak sorun kontrol edilir."],
+            "context": [""]
+        },
+        {
+            "tag": "acilissonrasisorunlar",
+            "patterns": ["donma sorunu","sistem geri yükleme","program açılmıyor","bilgisayar yavaşladı","bilgisayar hızlandırma"],
+            "responses": ["İşletim sistemi yüklendikten sonra kullanıcının isteklerini yerine getirmek için çalışan işletim sisteminde donmalar, işlem süresinde artma, performans düşüşü ve yüklü yazılımların açılmaması gibi sorunlar meydana gelebilir. Bu gibi sorunlar karşısında yapılacak işlemler şunlardır: 1- Sistem Geri Yükleme Yapmak: Sistem geri yükleme, işletimin sisteminin çalışması ile ilgili herhangi bir sorunun olmadığı daha önceki bir zamana geri döndürme işlemi olarak tanımlanabilir. Bu işlem, kullanıcı belgelerine herhangi bir zarar vermez. Sistem dosyalarını ve yüklenen yazılımları etkileyen bir işlem gerçekleştirir. Ancak sistem geri yükleme işlemini gerçekleştirebilmek için sistem geri yükleme noktası oluşturmak gerekir. 2- Güvenli mod işlemi daha çok yazılım sorunları ile karşılaşıldığında yapılan bir işlemdir. Güvenli modda işletim sisteminin varsayılan ayarları ile saklanan kısmı çalıştırılır ve işletim sistemi üzerinde çalışan yazılımların tamamı devre dışı bırakılır. Bu sebeple, soruna neden olan yazılım çalışmayacak ve gerekli düzeltmeleri yapabilecek ortam sağlanmış olacaktır. İşletim sistemini güvenli modda çalıştırabilmek için POST ekranındayken F8 tuşuna basılarak Windows Gelişmiş Seçenekler menüsü açılır ve Güvenli Mod seçilir."],
+            "context": [""]
+        },
+        {
+            "tag": "sanalbellek",
+            "patterns": ["sanal bellek","sanal bellek sorunu","sanal bellek hatası","sanal bellek çözümü"],
+            "responses": ["Sanal bellek, bilgisayarın depolama biriminin belirli bir miktarının sistem belleği olarak kullanılması anlamına gelmektedir. Sanal bellek, sistem belleğinin miktarına göre değişebilir. Sanal bellek miktarının az olarak belirlenmesi sorunlara yol açabileceği gibi fazla olarak seçilmesi de işletim sisteminde performans düşüşüne neden olabilir. Sanal bellek miktarının ayarlanması için: Sistem Özellikleri > Gelişmiş > Performans bölümündeki Ayarlar butonuna basınız.Açılan performans seçenekleri penceresinden Gelişmiş > Değiştir"],
+            "context": [""]
+        },
+        {
+            "tag": "kilitlenmesorunu",
+            "patterns": ["kilitlenme sorunu","kilitlenme hatası","bilgisayarın kilitlenmesi","bilgisayarın donması","mavi ekran hatası","blue screen"],
+            "responses": ["Kilitlenme sorunu bilgisayarlarda en sık karşılaşılan sorunlardan biridir. Karşılaşılan sorun genel olarak mavi ekran olarak adlandırılan hata ekranıdır. Bu durumda yapılacak işlemler şunlar olabilir: 1- İşletim sistemi yeniden başlatılır ve sorunun devam edip etmediği gözlenir. 2- Donanım ve yazılım uyumluluğu kontrol edilir. 3- Bilgisayar yönetiminden Olay Görüntüleyicisi çalıştırılır ve Sistem başlığı altındaki hata mesajları kontrol edilir."],
+            "context": [""]
+        },
+        {
+            "tag": "gruprescue",
+            "patterns": ["GRUB Rescue Sorunu","GRUB Rescue","GRUB","GRUB Rescue Hatası","grand unified bootloader" ],
+            "responses": ["GRUB (grand unified bootloader), bilgisayar açılışında işletim sistemlerini yüklemeye yarayan özgür bir önyükleme yazılımıdır. Birden fazla işletim sistemi yüklü bilgisayarlarda (Örneğin Windows 10 ve Pardus) açılış esnasında hangi işletim sisteminin başlatılacağı GRUB ile belirlenir. Aynı bilgisayarda birden fazla işletim sisteminin kurulu olması durumunda sıkça karşılaşılan hatalardan birisi GRUB menüsünün ekrana gelmemesidir. Bu durumda aşağıdaki etkinlikte belirtilen adımların uygulanması problemi çözecektir. Açılışta sistem aşağıdaki gibi “grub rescue” moduna geldiyse öncelikle Pardus işletim sisteminin hangi disk bölümüne kurulduğunu bilmek gerekmektedir.  Eğer GRUB ekranını görürseniz listeden Pardusu seçip işletim sistemini yükleyiniz. Pardus açıldıktan sonra sudo grub-install /dev/ sdX komutunu çalıştırınız. Bu işlemden sonra herhangi bir hata mesajı almadan işleminiz tamamlanırsa GRUB başarıyla MBRye kurulmuş demektir."],
+            "context": [""]
+        },
+        {
+            "tag": "uygulamacevapvermiyor",
+            "patterns": ["uygulama cevap vermiyor","kilitlenme","kill","pkill"],
+            "responses": ["İşletim sistemleri zaman zaman çalışma anında durmuş, duraklatılmış veya kararsız bir duruma geçmiş olabilir. Bu durumda bazı işlemlere cevap veremez. Halk arasında sistem kilitlenmesi olarak da adlandırılan bu durumlarda işletim sisteminin düzgün bir şekilde çalışmaya devam edebilmesi için cevap vermeyen, kararsızlığa düşmüş uygulamanın sonlandırılması gerekir. Açık kaynak işletim sistemlerinde bu sonlandırma işlemini yapabilmek için pkill veya kill komutları kullanılır."],
+            "context": [""]
+        } 
+    ]
+}
